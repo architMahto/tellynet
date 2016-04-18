@@ -1,0 +1,39 @@
+{
+  "name": "tellynet",
+  "description": "A video streaming service similar to Netflix",
+  "main": "server.js",
+  "authors": [
+    "Archit Mahto"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "angular": "^1.5.4",
+    "slick-carousel": "^1.5.9"
+  },
+  "dependencies": {
+    "angular": "^1.5.4",
+    "angular-ui-router": "^0.2.18",
+    "angular-sanitize": "^1.5.3",
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6",
+    "videogular": "^1.4.3",
+    "videogular-themes-default": "^1.4.3",
+    "SHA-1": "^0.1.1",
+    "videogular-controls": "^1.4.3",
+    "videogular-buffering": "^1.4.3",
+    "videogular-overlay-play": "^1.4.3",
+    "videogular-poster": "^1.4.3",
+    "videogular-ima-ads": "^1.4.3",
+    "videogular-angulartics": "^1.4.3",
+    "angular-slick": "^0.2.1",
+    "slick-carousel": "^1.5.9"
+  }
+}

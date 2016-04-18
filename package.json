@@ -1,0 +1,26 @@
+{
+  "name": "tellynet",
+  "version": "1.0.0",
+  "description": "A video streaming service similar to Netflix",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/architMahto/tellynet.git"
+  },
+  "author": "Archit Mahto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/architMahto/tellynet/issues"
+  },
+  "homepage": "https://github.com/architMahto/tellynet#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.12",
+    "morgan": "^1.7.0"
+  }
+}
