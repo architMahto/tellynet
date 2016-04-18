@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Slick CSS -->
     <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <!-- Styles CSS -->
     <link rel="stylesheet" href="/stylesheets/styles.css">
 
@@ -40,6 +42,56 @@
     <script type="text/javascript" src="/bower_components/angular-slick/dist/slick.js"></script>
   </head>
   <body>
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">TellyNet</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Filter By Country <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">United Kingdom</a></li>
+                <li><a href="#">United States of America</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                User <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Favorite Episodes</a></li>
+                <li><a href="#">Favorite Special Features</a></li>
+                <li><a href="#">Favorite Musical Moments</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Your Account</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Log Out</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
 
     <!-- TellyNetApp -->
     <script type="text/javascript" src="/javascripts/app.js"></script>
