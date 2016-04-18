@@ -23,8 +23,16 @@ To sum it all up, TellyNet would offer a more social viewing experience than man
 
 This app is developed by Archit Mahto.
 
+## How to run it
+
+### Locally
+
+1. Run `npm install` inside the root directory on the terminal. The required node modules will be installed.
+2. Run `bower install` inside the /public directory on the terminal. The required client-side packages will be installed.
+3. Run `nodemon` or `node server.js` to run app.
+
 ## License
 
 MIT
 
-See the 'LICENSE' for full license.
+See the `LICENSE` for full license.
