@@ -23,6 +23,15 @@ To sum it all up, TellyNet would offer a more social viewing experience than man
 
 This app is developed by Archit Mahto.
 
+## Techs Used
+
+* Node.js
+* AngularJS
+* Bootstrap
+* Videogular
+* Angular Slick
+* Bower (to install client-side packages)
+
 ## How to run it
 
 ### Locally
