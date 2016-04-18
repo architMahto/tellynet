@@ -1,0 +1,37 @@
+[
+  {
+    "name": "ABC",
+    "country": "United States of America",
+    "shows": ["Marvel's Agent Carter"],
+  },
+  {
+    "name": "AMC",
+    "country": "United States of America",
+    "shows": ["Better Call Saul", "Halt and Catch Fire"]
+  },
+  {
+    "name": "FX",
+    "country": "United States of America",
+    "shows": ["Fargo"]
+  },
+  {
+    "name": "FXX",
+    "country": "United States of America",
+    "shows": ["You're The Worst"]
+  },
+  {
+    "name": "HBO",
+    "country": "United States of America",
+    "shows": ["Silicon Valley"]
+  },
+  {
+    "name": "ITV",
+    "country": "United Kingdom",
+    "shows": ["Mr. Bean"]
+  },
+  {
+    "name": "USA",
+    "country": "United States of America",
+    "shows": ["Mr. Robot"]
+  }
+]

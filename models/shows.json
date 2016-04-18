@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Marvel's Agent Carter",
+    "details": {
+      "synopsis": "It is 1946, a year after the end of World War II and the disappearance of Captain America. Thousands of trained men and women have come home from fighting, looking for a new place to use their skills. One of those is Peggy, still despondent after the loss of Steve and hampered from getting a better job by the misogyny of the times. But in between tedious office work for the SSR, Peggy is contacted by her old friend Howard Stark, eventual father of Tony Stark, who needs her help in clearing his name and finding whoever is stealing his restricted weapons. Accompanied by his butler Edwin Jarvis, Peggy puts her skills to the test, beating up bad guys and laying the foundation of S.H.I.E.L.D. itself."
+    },
+    "seasons": [
+      {
+        "title": "Season 1"
+        "episodes": [
+          {
+            "title": "Now is Not the End",
+            "number": 1,
+            "synopsis": "In the premiere episode, when old acquaintance Howard Stark finds himself being framed for unleashing his deadliest weapons to anyone willing to pony up the cash, he contacts Peggy -- the only person he can trust -- to track down those responsible, dispose of the weapons and clear his name. He empowers his butler, Edwin Jarvis, to be at her beck and call when needed to help assist her as she investigates and tracks down those responsible for selling these weapons of mass destruction. If caught going on these secret missions for Stark, Peggy could be targeted as a traitor and spend the rest of her days in prison - or worse.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+1/Marvel%27s+Agent+Carter+101+-+Now+is+Not+the+End.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "Bridge and Tunnel",
+            "number": 2,
+            "synopsis": "Howard Stark's deadliest weapon has fallen into enemy hands, and only Agent Carter can recover it. But can she do so before her undercover mission is discovered by SSR Chief Dooley and Agent Thompson?",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+1/Marvel%27s+Agent+Carter+102+-+Bridge+and+Tunnel.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "Time and Tide",
+            "number": 3,
+            "synopsis": "As Agent Carter closes in on Howard Stark's stolen technology, Peggy's secret mission could unravel when the SSR arrests Jarvis and a secret is revealed.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+1/Marvel%27s+Agent+Carter+103+-+Time+and+Tide.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "The Blitzkrieg Button",
+            "number": 4,
+            "synopsis": "Peggy may be in more trouble than usual when fugitive Howard Stark suddenly returns for mysterious reasons. And Chief Dooley chases a new clue all the way to Europe that threatens to destroy Peggy's future at the SSR.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+1/Marvel%27s+Agent+Carter+104+-+The+Blitzkrieg+Button.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "The Iron Ceiling",
+            "number": 5,
+            "synopsis": "Peggy is finally trusted with a mission and calls upon her trusted Howling Commandos squad for backup. But her cover could be at risk when SSR Chief Dooley also sends Agent Thompson with her.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+1/Marvel%27s+Agent+Carter+105+-+The+Iron+Ceiling.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "A Sin to Err",
+            "number": 6,
+            "synopsis": "Peggy discovers the shocking truth about Leviathan but doesn't realize that her true enemies are even closer than she imagined. Meanwhile, Souza is close to confirming the truth about Peggy and may just put her in the crosshairs of the SSR",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+1/Marvel%27s+Agent+Carter+106+-+A+Sin+to+Err.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "Snafu",
+            "number": 7,
+            "synopsis": "Peggy is cornered and more vulnerable than ever as Leviathan makes their move against her. As the SSR zeroes in on Howard Stark, they may pay the ultimate price as they find their true enemy is closer than they realized.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+1/Marvel%27s+Agent+Carter+107+-+Snafu.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "Valediction",
+            "number": 8,
+            "synopsis": "Peggy faces the full fury of Leviathan, as Howard Stark makes his return.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+1/Marvel%27s+Agent+Carter+108+-+Valediction.webm",
+            "imageURL": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mr. Bean",
+    "details": {
+      "synopsis": "A very odd man, about whom we know nothing except his last name, basically wanders around, gets into trouble, finds unique solutions to predicaments, and both wittingly and unwittingly causes mayhem."
+    },
+    "seasons": [
+      {
+        "title": "Episodes"
+        "episodes": [
+          {
+            "title": "Mr. Bean",
+            "number": 1,
+            "synopsis": "Bean writes a maths exam; goes for an outing at the beach; and struggles to stay awake at church.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+1+-+Mr+Bean.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean1.png"
+          },
+          {
+            "title": "The Return of Mr. Bean",
+            "number": 2,
+            "synopsis": "Bean tries out his new credit card at a department store; visits a restaurant; and attends a premiere.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+2+-+The+Return+Of+Mr+Bean.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean2.png"
+          },
+          {
+            "title": "The Curse of Mr. Bean",
+            "number": 3,
+            "synopsis": "Bean visits the local swimming pool; gets stuck at a car park; enjoys an outing at the park, and watches a horror movie with his girlfriend.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+3+-+The+Curse+Of+Mr+Bean.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean3.png"
+          },
+          {
+            "title": "Mr. Bean Goes to Town",
+            "number": 4,
+            "synopsis": "Bean tries out his new television set; gets his camera stolen at the park; hops around town to get back his show; and goes out on a date with his girlfriend.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+4+-+Mr+Bean+Goes+To+Town.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean4.png"
+          },
+          {
+            "title": "The Trouble with Mr. Bean",
+            "number": 5,
+            "synopsis": "Bean rushes for a dentist appointment after sleeping in; leaves a lasting impact on his dentist; helps a young boy with his remote control boat; and struggles to enjoy his picnic.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+5+-+The+Trouble+With+Mr+Bean.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean5.png"
+          },
+          {
+            "title": "Mr. Bean Rides Again",
+            "number": 6,
+            "synopsis": "Bean deals with a man suffering from a heart attack; struggles to post a letter; and goes on a trip.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+6+-+Mr+Bean+Rides+Again.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean6.png"
+          },
+          {
+            "title": "Merry Christmas, Mr. Bean",
+            "number": 7,
+            "synopsis": "Bean finds a nativity scene and gives his own take; and prepares for a relaxing Christmas dinner with his girlfriend.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+7+-+Merry+Christmas+Mr+Bean.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean7.png"
+          },
+          {
+            "title": "Mr. Bean in Room 426",
+            "number": 8,
+            "synopsis": "Bean treats himself to a weekend in a hotel and seeks competition with his hotel neighbour. A competition that leaves him in a less than flattering situation.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+8+-+Mr+Bean+In+Room+426.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean8.png"
+          },
+          {
+            "title": "Do-It-Yourself Mr. Bean",
+            "number": 9,
+            "synopsis": "Bean enjoys a New Year's Eve celebration with his friends and goes on a DIY shopping spree.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+9+-+Do-It-Yourself+Mr+Bean.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean9.png"
+          },
+          {
+            "title": "Mind The Baby, Mr. Bean",
+            "number": 10,
+            "synopsis": "While visiting Southsea, Bean accidentally becomes lumbered with a baby, with no idea of how or where it came from.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+10+-+Mind+The+Baby+Mr+Bean.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean10.png"
+          },
+          {
+            "title": "Back to School Mr. Bean",
+            "number": 11,
+            "synopsis": "Bean attends an open day at a school and unleashes his usual brand of chaos in the various classes he visits.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+11+-+Back+To+School+Mr+Bean.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean11.png"
+          },
+          {
+            "title": "Tee Off, Mr. Bean",
+            "number": 12,
+            "synopsis": "Bean causes chaos at a laundrette and miniature golf.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+12+-+Tee+Off%2C+Mr+Bean.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean12.png"
+          },
+          {
+            "title": "Goodnight Mr. Bean",
+            "number": 13,
+            "synopsis": "Bean is in a rush at the hospital; has his own brand of fun with a Queen's Guard; and uses some unusual methods to cure his insomnia.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+13+-+Goodnight+Mr+Bean.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean13.png"
+          },
+          {
+            "title": "Hai by Mr. Bean of London",
+            "number": 14,
+            "synopsis": "Bean takes over for a hairdresser; attends a fete; and loses his ticket at a train station.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+14+-+Hair+By+Mr+Bean+Of+London.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean14.png"
+          },
+          {
+            "title": "The Best Bits of Mr. Bean",
+            "number": 15,
+            "synopsis": "On a rainy day, Bean tries to find an umbrella for Teddy.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+15+-+The+Best+Bits+of+Mr+Bean.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean15.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mr. Robot",
+    "details": {
+      "synopsis": "Elliot Alderson, a young man living in New York City, works at the cyber security company Allsafe as a security engineer. Constantly struggling with social anxiety disorder and clinical depression, Elliot's thought process seems heavily influenced by paranoia and delusion. He connects to people by hacking them, which often leads him to act as a cyber-vigilante. He is recruited by a mysterious insurrectionary anarchist known as Mr. Robot and joins his team of hacktivists known as fsociety. One of their missions is to cancel all debts by taking down one of the largest corporations in the world, E Corp (which Elliot perceives as Evil Corp), which also happens to be Allsafe's biggest client."
+    },
+    "seasons": [
+      {
+        "title": "Season 1"
+      }
+    ]
+  },
+  {
+    "name": "Silicon Valley",
+    "details": {
+      "synopsis": "Richard Hendricks, a meek computer programmer, inadvertently creates a lossless file compression algorithm. His invention quickly sparks a bidding war between his employer, Gavin Belson, and billionaire tech investor Peter Gregory. Gavin offers him $10 million to sell, but Peter Gregory convinces him to accept an investment and create a start-up around his new product. Richard soon finds himself in over his head as he struggles to build a potential billion-dollar business."
+    },
+    "seasons": [
+      {
+        "title": "Season 1"
+      },
+      {
+        "title": "Season 2"
+      }
+    ]
+  }
+]
