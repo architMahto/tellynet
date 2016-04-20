@@ -269,6 +269,78 @@
     "seasons": [
       {
         "title": "Season 1"
+        "episodes": [
+          {
+            "title": "eps1.0_hellofriend.mov",
+            "number": 1,
+            "synopsis": "Elliot, a cyber-security engineer by day and vigilante hacker by night, is recruited by a mysterious underground group to destroy the firm he's paid to protect. Elliot must decide how far he'll go to expose the forces he believes are running (and ruining) the world.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/Mr.+Robot+101+-+eps1.0_hellofriend.mov.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/mrrobot11.jpg"
+          },
+          {
+            "title": "eps1.1_ones-and-zer0es.mpeg",
+            "number": 2,
+            "synopsis": "Tyrell Wellick, now Evil Corp’s acting CTO since Elliot helped get Terry Colby arrested, makes Elliot an offer he can (and does) refuse: a position as Evil Corp’s head of Cyber Security and a big bank account to match. By saying no, has Elliot made himself a mark for Wellick?",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/Mr.+Robot+102+-+eps1.1_ones-and-zer0es.mpeg.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/mrrobot12.jpg"
+          },
+          {
+            "title": "eps1.2_d3bug.mkv",
+            "number": 3,
+            "synopsis": "After being shoved off the railing in Coney Island by Mr. Robot, Elliot wakes up in a hospital room, badly banged up. Krista, his psychiatrist, is inclined to send him to rehab unless he’s willing to be regularly drug tested. Elliot complies, knowing that he can easily change the hospital records for the tests since he hacked their system long ago.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/Mr.+Robot+103+-+eps1.2_d3bug.mkv.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/mrrobot13.jpg"
+          },
+          {
+            "title": "eps1.3_da3m0ns.mp4",
+            "number": 4,
+            "synopsis": "At fsociety, Elliot lays out his plan to hack Steel Mountain’s climate control system and raise the heat high enough to melt all the tapes that record the data. Romero points out the plan’s many flaws but when Elliot remembers that they only have a few days left before Evil Corp switches over to their new redundant security protocols based on what Tyrell Wellick told him, they reluctantly agree it’s now or never.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/Mr.+Robot+104+-+eps1.3_da3m0ns.mp4.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/mrrobot14.jpg"
+          },
+          {
+            "title": "eps1.4_3xpl0its.wmv",
+            "number": 5,
+            "synopsis": "Mr. Robot, Elliot, Romero and Mobley have gained access to Steel Mountain’s parking lot. Now it’s up to a nervous Elliot to pose as a tech billionaire touring the facility so he can plant the device on a thermostat. When Elliot finally manages to shrug off his tour guide, he runs right into Tyrell Wellick. Elliot bluffs about why he’s there and then quickly figures out how to use having lunch with Tyrell as a way of gaining access to the restricted floor. Then Elliot excuses himself to go to the bathroom, where he starts installing the device in the adjacent janitor closet, but Tyrell’s entrance halts his progress. Tyrell says he knows that Elliot framed Terry Colby for the Evil Corp hack, but he believes Elliot did so as revenge for his father’s death, which lessens Tyrell’s opinion of him. After saying that he isn’t going to bother to turn him in, Tyrell leaves, giving Elliot the precious chance he needs to finish the job.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/Mr.+Robot+105+-+eps1.4_3xpl0its.wmv.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/mrrobot15.jpg"
+          },
+          {
+            "title": "eps1.5_br4ve-trave1er.asf",
+            "number": 6,
+            "synopsis": "Elliot is given only a few moments to talk to Shayla in a diner before Vera’s henchmen, his brother Isaac and colleague DJ, drag her out. The only way Vera will let her go is if Elliot hacks the jail and gets Vera released by that night, which even for Elliot is an impossible task. Isaac and DJ bring Elliot back to his apartment and stay to keep watch over him as he works. Elliot enlists Darlene to help him get into the jail’s network, but their trick fails and she also ends up getting held by the thugs in Elliot’s apartment until he successfully completes his task.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/Mr.+Robot+106+-+eps1.5_br4ve-trave1er.asf.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/mrrobot16.jpg"
+          },
+          {
+            "title": "eps1.6_v1ew-s0urce.flv",
+            "number": 7,
+            "synopsis": "A month has passed since everything went down with Shayla and Vera. Elliot has just fulfilled the court-ordered mandate of a year of therapy. Krista signs his papers while urging him to continue their work. His response is to take his completed form and leave. After a few days, however, Elliot returns to her office. It all comes spilling out—that he’s a hacker and to prove it, recounts details about her that he would never know otherwise, stunning her into silence. He desperately wants a way out of this loneliness, just like her. Is that what she’s been wanting to hear?",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/Mr.+Robot+107+-+eps1.6_v1ew-s0urce.flv.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/mrrobot17.jpg"
+          },
+          {
+            "title": "eps1.7_wh1ter0se.m4v",
+            "number": 8,
+            "synopsis": "While at the arcade, Elliot gets a text that Allsafe has been hacked so he rushes back to the office. The Allsafe team is scrambling to fix the hack and keep news of it from leaking to their clients. While Elliot tries to reverse engineer the malware, he wonders if the hack is just a distraction, and if so, from what. After Ollie oddly orders Elliot to take some infected drives to Blank’s Disk Recovery, Elliot starts putting the clues together and realizes that all of this is an elaborate plan to lead Elliot to his meeting with whiterose.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/Mr.+Robot+108+-+eps1.7_wh1ter0se.m4v.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/mrrobot18.jpg"
+          },
+          {
+            "title": "eps1.8_m1rr0r1ng.qt",
+            "number": 9,
+            "synopsis": "Elliot demands to know why Mr. Robot didn’t tell him that he was alive sometime over the last twenty years. Mr. Robot explains that Elliot is not well and that “they” have been feeding him pills so he forgets what they want him to forget. Mr. Robot, nervous that the men in black will hear them, especially because they don’t want Mr. Robot to be alive, takes Elliot to their old house in Washington Township. Mr. Robot has a different take on the window incident that Elliot just can’t reconcile with his own memories. Unable to stand it anymore, Elliot pushes Mr. Robot out of his bedroom window.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/Mr.+Robot+109+-+eps1.8_m1rr0r1ng.qt.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/mrrobot19.jpg"
+          },
+          {
+            "title": "eps1.9_zer0-day.avi",
+            "number": 10,
+            "synopsis": "Elliot wakes up in Tyrell’s SUV in a Manhattan parking lot. He’s been asleep inside for two days and has no memory of how he got there or what happened to Tyrell since he brought him to the fsociety arcade. As Elliot makes his way through the city, he realizes that the fsociety plan was executed. Credit card systems are no longer working but everyone’s debt has been erased. Governments and corporations the world over are dealing with the fallout from the hack while people are celebrating fsociety and their newfound freedom in the streets.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/Mr.+Robot+110+-+eps1.9_zer0-day.avi.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/Season+1/mrrobot110.jpg"
+          }
+        ]
       }
     ]
   },
