@@ -142,7 +142,8 @@
         ]
       }
     ],
-    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/agentCarterPoster.jpg"
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/agentCarterPoster.jpg",
+    "network": ObjectId("57181028d407cef112a5b6f7")
   },
   {
     "name": "Mr. Bean",
@@ -261,7 +262,8 @@
         ]
       }
     ],
-    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/mrBeanPoster.jpg"
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/mrBeanPoster.jpg",
+    "network": ObjectId("57181028d407cef112a5b6f8")
   },
   {
     "name": "Mr. Robot",
@@ -345,7 +347,8 @@
         ]
       }
     ],
-    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/mrRobotPoster.jpg"
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/mrRobotPoster.jpg",
+    "network": ObjectId("57181028d407cef112a5b6f9")
   },
   {
     "name": "Silicon Valley",
@@ -490,6 +493,7 @@
         ]
       }
     ],
-    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/HBO/Silicon+Valley/siliconValleyPoster.jpg"
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/HBO/Silicon+Valley/siliconValleyPoster.jpg",
+    "network": ObjectId("57181028d407cef112a5b6f6")
   }
 ]
