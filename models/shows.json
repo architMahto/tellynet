@@ -141,7 +141,8 @@
           }
         ]
       }
-    ]
+    ],
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/agentCarterPoster.jpg"
   },
   {
     "name": "Mr. Bean",
@@ -259,7 +260,8 @@
           }
         ]
       }
-    ]
+    ],
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/mrBeanPoster.jpg"
   },
   {
     "name": "Mr. Robot",
@@ -342,7 +344,8 @@
           }
         ]
       }
-    ]
+    ],
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/mrRobotPoster.jpg"
   },
   {
     "name": "Silicon Valley",
@@ -486,6 +489,7 @@
           }
         ]
       }
-    ]
+    ],
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/HBO/Silicon+Valley/siliconValleyPoster.jpg"
   }
 ]

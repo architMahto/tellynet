@@ -3,35 +3,24 @@
     "name": "ABC",
     "country": "United States of America",
     "shows": ["Marvel's Agent Carter"],
-  },
-  {
-    "name": "AMC",
-    "country": "United States of America",
-    "shows": ["Better Call Saul", "Halt and Catch Fire"]
-  },
-  {
-    "name": "FX",
-    "country": "United States of America",
-    "shows": ["Fargo"]
-  },
-  {
-    "name": "FXX",
-    "country": "United States of America",
-    "shows": ["You're The Worst"]
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/ABC.jpg"
   },
   {
     "name": "HBO",
     "country": "United States of America",
-    "shows": ["Silicon Valley"]
+    "shows": ["Silicon Valley"],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/HBO/HBO.png"
   },
   {
     "name": "ITV",
     "country": "United Kingdom",
-    "shows": ["Mr. Bean"]
+    "shows": ["Mr. Bean"],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/ITV.png"
   },
   {
     "name": "USA",
     "country": "United States of America",
-    "shows": ["Mr. Robot"]
+    "shows": ["Mr. Robot"],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/USA/USA.png"
   }
 ]

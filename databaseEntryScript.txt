@@ -1,0 +1,6 @@
+# Database Entry Script
+
+1. Add networks to DB
+2. Use `_id` and add to shows
+3. Add shows to DB / add show `_id` to Network
+4. Save Network
