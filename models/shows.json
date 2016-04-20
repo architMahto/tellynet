@@ -11,7 +11,7 @@
           {
             "title": "Now is Not the End",
             "number": 1,
-            "synopsis": "In the premiere episode, when old acquaintance Howard Stark finds himself being framed for unleashing his deadliest weapons to anyone willing to pony up the cash, he contacts Peggy -- the only person he can trust -- to track down those responsible, dispose of the weapons and clear his name. He empowers his butler, Edwin Jarvis, to be at her beck and call when needed to help assist her as she investigates and tracks down those responsible for selling these weapons of mass destruction. If caught going on these secret missions for Stark, Peggy could be targeted as a traitor and spend the rest of her days in prison - or worse.",
+            "synopsis": "When old acquaintance Howard Stark finds himself being framed for unleashing his deadliest weapons to anyone willing to pony up the cash, he contacts Peggy -- the only person he can trust -- to track down those responsible, dispose of the weapons and clear his name. He empowers his butler, Edwin Jarvis, to be at her beck and call when needed to help assist her as she investigates and tracks down those responsible for selling these weapons of mass destruction. If caught going on these secret missions for Stark, Peggy could be targeted as a traitor and spend the rest of her days in prison - or worse.",
             "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+1/Marvel%27s+Agent+Carter+101+-+Now+is+Not+the+End.webm",
             "imageURL": ""
           },
@@ -62,6 +62,81 @@
             "number": 8,
             "synopsis": "Peggy faces the full fury of Leviathan, as Howard Stark makes his return.",
             "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+1/Marvel%27s+Agent+Carter+108+-+Valediction.webm",
+            "imageURL": ""
+          }
+        ]
+      },
+      {
+        "title": "Season 2"
+        "episodes": [
+          {
+            "title": "The Lady in the Lake",
+            "number": 1,
+            "synopsis": "Peggy moves to the City of Angels to help Chief Daniel Sousa at the West Coast Strategic Scientific Reserve (SSR) investigate a bizarre homicide involving an alleged killer and Isodyne Energy, and reunites with some familiar faces.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+2/Marvel%27s+Agent+Carter+201+-+The+Lady+in+the+Lake.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "A View in the Dark",
+            "number": 2,
+            "synopsis": "Peggy discovers her murder investigation has huge ramifications that can destroy her career, as well as everyone near and dear to her.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+2/Marvel%27s+Agent+Carter+202+-+A+View+in+the+Dark.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "Better Angels",
+            "number": 3,
+            "synopsis": "Peggy's search for the truth about Zero Matter puts her on a collision course with her superiors as Howard Stark barnstorms in.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+2/Marvel%27s+Agent+Carter+203+-+Better+Angels.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "Smoke & Mirrors",
+            "number": 4,
+            "synopsis": "Agent Carter and the SSR learn there's more than just a pretty face behind Hollywood star Whitney Frost, Peggy's most dangerous foe yet.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+2/Marvel%27s+Agent+Carter+204+-+Smoke+%26+Mirrors.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "The Atomic Job",
+            "number": 5,
+            "synopsis": "As Jarvis' precision and quick-thinking skills are put to the ultimate test, Peggy must find a way to stop an atomic explosion that threatens to destroy all of California.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+2/Marvel%27s+Agent+Carter+205+-+The+Atomic+Job.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "Life of the Party",
+            "number": 6,
+            "synopsis": "When Peggy realizes she cannot save Wilkes on her own, she turns to her most unexpected adversary for help while Whitney makes a move to control the deadly Zero Matter.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+2/Marvel%27s+Agent+Carter+206+-+Life+of+the+Party.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "Monsters",
+            "number": 7,
+            "synopsis": "As Peggy plots a rescue mission, Whitney hunts for even more dark power; and Jarvis learns he should not make promises he cannot keep.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+2/Marvel%27s+Agent+Carter+207+-+Monsters.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "The Edge of Mystery",
+            "number": 8,
+            "synopsis": "Peggy and Sousa propose a trade with Whitney Frost, while the SSR gets help from Howard Stark that may be the key to eliminating Zero Matter.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+2/Marvel%27s+Agent+Carter+208+-+The+Edge+of+Mystery.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "A Little Song and Dance",
+            "number": 9,
+            "synopsis": "Peggy desperately tries to save Dr. Wilkes with a dangerous plan to stop Whitney Frost. But Thompson makes a surprising move that could destroy them all.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+2/Marvel%27s+Agent+Carter+209+-+A+Little+Song+and+Dance.webm",
+            "imageURL": ""
+          },
+          {
+            "title": "Hollywood Ending",
+            "number": 10,
+            "synopsis": "Peggy needs Howard Stark to eliminate Zero Matter as they are faced with a mission none of them could come back from.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/Season+2/Marvel%27s+Agent+Carter+210+-+Hollywood+Ending.webm",
             "imageURL": ""
           }
         ]
