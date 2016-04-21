@@ -6,7 +6,7 @@ var mongoose          = require('mongoose'),
       seasons         : [],
       specialFeatures : [],
       poster          : String,
-      network         : String
+      network         : {type: Schema.Types.ObjectId, ref: 'Network'}
     });
 
 module.exports = mongoose.model('Show', showSchema);
