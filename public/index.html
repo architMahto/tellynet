@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Slick CSS -->
     <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick.css">
+    <!-- Slick Theme CSS -->
+    <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick-theme.css">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <!-- Open Sans Google Font -->
@@ -95,7 +97,18 @@
       </div>
     </nav>
 
+    <div class="container">
+      <div ui-view></div>
+    </div>
+
+
     <!-- TellyNetApp -->
     <script type="text/javascript" src="/javascripts/app.js"></script>
+    <!-- Network Factory -->
+    <script type="text/javascript" src="/javascripts/factories/networksFactory.js">
+
+    </script>
+    <!-- Network Controller -->
+    <script type="text/javascript" src="/javascripts/controllers/networkController.js"></script>
   </body>
 </html>

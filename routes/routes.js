@@ -1,7 +1,8 @@
-var router = require('express').Router();
+var router       = require('express').Router();
+var networksCtrl = require('../controllers/networksController');
 
-router.get('/', function (req, res) {
-  res.sendFile('index.html', {root: './public/views'});
-});
+router.route('/networks')
+  .get(networksCtrl.networkController.all)
+
 
 module.exports = router;

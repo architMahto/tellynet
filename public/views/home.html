@@ -1,0 +1,22 @@
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Filter By Country
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">United Kingdom</a></li>
+    <li><a href="#">United States</a></li>
+  </ul>
+</div>
+
+<div class="row">
+  <br>
+</div>
+
+<ul class="networks">
+  <li ng-repeat="network in networkCtrl.networks">
+    <div class="image-holder">
+      <img ng-src="{{network.logo}}" />
+    </div>
+  </li>
+</ul>

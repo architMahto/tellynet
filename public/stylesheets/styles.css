@@ -7,3 +7,29 @@ h1 {
   color: #ffffff;
   font-weight: 800;
 }
+
+.networks {
+  list-style: none;
+}
+
+.networks li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.image-holder {
+  background: #ffffff;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.image-holder img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
