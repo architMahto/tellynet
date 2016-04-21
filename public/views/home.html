@@ -1,12 +1,17 @@
-<div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Filter By Country
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#">United Kingdom</a></li>
-    <li><a href="#">United States</a></li>
-  </ul>
+<div class="row">
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Filter By Country
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li><a ng-click="networkCtrl.showAll()">Show All Networks</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a ng-click="networkCtrl.selectCountry('United Kingdom')">United Kingdom</a></li>
+      <li><a ng-click="networkCtrl.selectCountry('United States of America')">United States</a></li>
+      <li><a ng-click</li>
+    </ul>
+  </div>
 </div>
 
 <div class="row">
@@ -15,8 +20,10 @@
 
 <ul class="networks">
   <li ng-repeat="network in networkCtrl.networks">
-    <div class="image-holder">
-      <img ng-src="{{network.logo}}" />
-    </div>
+    <a href="#">
+      <div class="image-holder">
+        <img ng-src="{{network.logo}}" />
+      </div>
+    </a>
   </li>
 </ul>

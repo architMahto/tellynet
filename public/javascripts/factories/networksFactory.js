@@ -15,6 +15,10 @@
       return $http.get(networksUrl);
     }
 
+    networksData.byCountry = function (country) {
+      return $http.get(networksUrl + '/' + country);
+    }
+
     return networksData;
   }
 })()
