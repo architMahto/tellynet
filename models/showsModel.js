@@ -5,7 +5,7 @@ var mongoose   = require('mongoose'),
       details  : {synopsis: String},
       seasons  : [],
       poster   : String,
-      network  : ObjectID
+      network  : String
     });
 
 module.exports = mongoose.model('Show', showSchema);

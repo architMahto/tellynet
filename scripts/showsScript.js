@@ -1,4 +1,15 @@
 var mongoose    = require('mongoose');
-var databaseUrl = 'mongodb://localhost:27017/tellynet'
+var databaseUrl = 'mongodb://localhost:27017/tellynet';
 
-var Show = require('')
+mongoose.connect(databaseUrl);
+
+var Show = require('../models/showsModel');
+var showData = require('../models/shows.json');
+
+showData.forEach(function(show) {
+  var newShow = new Show(show);
+
+  newShow.save(function (err, doc) {
+    console.log(err, doc);
+  })
+});
