@@ -5,10 +5,10 @@
       <span class="caret"></span>
     </button>
     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-      <li><a ng-click="networkCtrl.showAll()">Show All Networks</a></li>
+      <li><a ng-click="networkAndShowCtrl.showAll()">Show All Networks</a></li>
       <li role="separator" class="divider"></li>
-      <li><a ng-click="networkCtrl.selectCountry('United Kingdom')">United Kingdom</a></li>
-      <li><a ng-click="networkCtrl.selectCountry('United States of America')">United States</a></li>
+      <li><a ng-click="networkAndShowCtrl.selectCountry('United Kingdom')">United Kingdom</a></li>
+      <li><a ng-click="networkAndShowCtrl.selectCountry('United States of America')">United States</a></li>
       <li><a ng-click</li>
     </ul>
   </div>
@@ -19,7 +19,7 @@
 </div>
 
 <ul class="networks">
-  <li ng-repeat="network in networkCtrl.networks">
+  <li ng-repeat="network in networkAndShowCtrl.networks">
     <a href="#">
       <div class="image-holder">
         <img ng-src="{{network.logo}}" />
