@@ -8,7 +8,7 @@ router.route('/networks')
 router.route('/networks/:country')
   .get(networksCtrl.networkController.byCountry)
 
-router.route('/shows/:network')
+router.route('/shows/:id')
   .get(showsCtrl.showController.byNetwork)
 
 

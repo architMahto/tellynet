@@ -144,7 +144,7 @@
     ],
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/agentCarterPoster.jpg",
-    "network": "5719868bea104b5505f26202"
+    "network": "571a3f78562809f501ee8a66"
   },
   {
     "name": "Mr. Bean",
@@ -324,7 +324,7 @@
       }
     ],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/mrBeanPoster.jpg",
-    "network": "5719868bea104b5505f26204"
+    "network": "571a3f78562809f501ee8a68"
   },
   {
     "name": "Mr. Robot",
@@ -410,7 +410,7 @@
     ],
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/mrRobotPoster.jpg",
-    "network": "5719868bea104b5505f26205"
+    "network": "571a3f78562809f501ee8a69"
   },
   {
     "name": "Silicon Valley",
@@ -557,6 +557,6 @@
     ],
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/HBO/Silicon+Valley/siliconValleyPoster.jpg",
-    "network": "5719868bea104b5505f26203"
+    "network": "571a3f78562809f501ee8a67"
   }
 ]
