@@ -12,7 +12,6 @@
     var showsUrl     = 'http://localhost:3000/api/v1/shows'
 
     networksAndShowsData.all = function () {
-      console.log("Getting all networks");
       return $http.get(networksUrl);
     }
 
