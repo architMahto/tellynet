@@ -8,8 +8,11 @@ router.route('/networks')
 router.route('/networks/:country')
   .get(networksCtrl.networkController.byCountry)
 
-router.route('/shows/:id')
+router.route('/showsbynetwork/:id')
   .get(showsCtrl.showController.byNetwork)
+
+router.route('/shows/:id')
+  .get(showsCtrl.showController.getShow)
 
 
 module.exports = router;
