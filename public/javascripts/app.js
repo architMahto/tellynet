@@ -1,7 +1,7 @@
 ;(function() {
   'use strict';
 
-  angular.module('tellyNetApp', ["networkAndShowControllers", "networkAndShowFactory", "ui.router", "ngSanitize", "slick", "com.2fdevs.videogular", "com.2fdevs.videogular.plugins.controls", "com.2fdevs.videogular.plugins.overlayplay", "com.2fdevs.videogular.plugins.poster", "com.2fdevs.videogular.plugins.buffering"])
+  angular.module('tellyNetApp', ["networkAndShowControllers", "watchControllers", "networkAndShowFactory", "ui.router", "ngSanitize", "slick", "com.2fdevs.videogular", "com.2fdevs.videogular.plugins.controls", "com.2fdevs.videogular.plugins.overlayplay", "com.2fdevs.videogular.plugins.poster", "com.2fdevs.videogular.plugins.buffering"])
     .config(routerConfig)
 
   routerConfig.$inject = ['$stateProvider', '$urlRouterProvider']
@@ -12,6 +12,11 @@
         url: '/',
         templateUrl: 'views/home.html',
         controller: 'networkAndShowController as networkAndShowCtrl'
+      })
+      .state('watch', {
+        url: '/watch/:id?s?e/',
+        templateUrl: 'views/watch.html',
+        controller: 'watchController as watchCtrl'
       })
       $urlRouterProvider.otherwise('/')
   }

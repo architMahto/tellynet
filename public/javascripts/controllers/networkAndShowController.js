@@ -4,9 +4,9 @@
   angular.module('networkAndShowControllers', [])
     .controller('networkAndShowController', networkAndShowController);
 
-  networkAndShowController.$inject = ['networksAndShowsFactory', '$stateParams']
+  networkAndShowController.$inject = ['networksAndShowsFactory', '$stateParams', '$state']
 
-  function networkAndShowController(networksAndShowsFactory, $stateParams) {
+  function networkAndShowController(networksAndShowsFactory, $stateParams, $state) {
     var networkAndShowCtrl = this;
 
     // flag for viewing networks
@@ -76,8 +76,12 @@
     networkAndShowCtrl.playEpisode = function(index) {
       networkAndShowCtrl.currentEpisode = index;
       // set index of current season and current episode in selected show
-      networkAndShowCtrl.currentShow.currentEpisode = index;
-      networkAndShowCtrl.currentShow.currentSeason  = networkAndShowCtrl.currentSeason;
+      // networkAndShowCtrl.currentShow.currentEpisode = index;
+      // networkAndShowCtrl.currentShow.currentSeason  = networkAndShowCtrl.currentSeason;
+      console.log(networkAndShowCtrl.currentShow);
+      $state.go('watch', {id: networkAndShowCtrl.currentShow._id,
+                          s: networkAndShowCtrl.currentSeason,
+                          e: networkAndShowCtrl.currentEpisode})
     }
 
     // show all the networks from the beginning
