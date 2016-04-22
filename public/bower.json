@@ -34,6 +34,7 @@
     "videogular-ima-ads": "^1.4.3",
     "videogular-angulartics": "^1.4.3",
     "angular-slick": "^0.2.1",
-    "slick-carousel": "^1.5.9"
+    "slick-carousel": "^1.5.9",
+    "hover": "Hover#^2.0.2"
   }
 }
