@@ -12,7 +12,7 @@
     var showsByNetworkUrl = 'http://localhost:3000/api/v1/showsbynetwork';
     var showsUrl          = 'http://localhost:3000/api/v1/shows';
 
-    networksAndShowsData.all = function () {
+    networksAndShowsData.all       = function () {
       return $http.get(networksUrl);
     }
 
@@ -22,6 +22,10 @@
 
     networksAndShowsData.byNetwork = function (id) {
       return $http.get(showsByNetworkUrl + '/' + id);
+    }
+
+    networksAndShowsData.getShow   = function (id) {
+      return $http.get(showsUrl + '/' + id);
     }
 
     return networksAndShowsData;
