@@ -20,6 +20,7 @@
     networksAndShowsFactory.getShow($stateParams.id)
       .then(function(res) {
         watchCtrl.videos = res.data;
+        watchCtrl.currentSeasonTitle = watchCtrl.videos.seasons[watchCtrl.currentSeason].title;
 
         watchCtrl.sources = [
           {
@@ -38,9 +39,25 @@
             poster: watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes[watchCtrl.currentEpisode].imageURL
           }
         };
-        
+
       })
 
+    watchCtrl.changeSeason = function(index) {
+      watchCtrl.currentSeason = index;
+      watchCtrl.currentSeasonTitle = watchCtrl.videos.seasons[watchCtrl.currentSeason].title;
+    }
+
+    watchCtrl.setVideo = function(index) {
+      watchCtrl.currentEpisode = index;
+      watchCtrl.API.stop();
+      watchCtrl.config.sources = [
+        {
+          src: $sce.trustAsResourceUrl(watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes[watchCtrl.currentEpisode].videoURL),
+          type: "video/webm"
+        }
+      ]
+      watchCtrl.config.plugins.poster = watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes[watchCtrl.currentEpisode].imageURL;
+    };
 
   }
 })()

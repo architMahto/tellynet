@@ -33,7 +33,7 @@
 <ul class="shows" ng-show="networkAndShowCtrl.showsList">
   <li ng-repeat="show in networkAndShowCtrl.shows">
 
-    <a class="hvr-grow" ng-click="networkAndShowCtrl.selectShow($index)">
+    <a ng-click="networkAndShowCtrl.selectShow($index)">
       <img style="height: 255px; width: 225px; border-radius: 10px" ng-src="{{show.poster}}" />
     </a>
 
@@ -67,16 +67,17 @@
 
             <div class="playlist row">
 
-              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 750px; left: 50%; transform: translateX(-50%)">
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                   <div ng-class="{active: $first}" class="item" ng-repeat="episode in show.seasons[networkAndShowCtrl.currentSeason].episodes">
-                    <img ng-src="{{episode.imageURL}}">
-                    <div class="">
+                    <!-- <img ng-src="{{episode.imageURL}}"> -->
+
+                    <div class="episode-image" style="width: 750px; height: 365px; background: url({{episode.imageURL}}) no-repeat center center; background-size: cover;">
 
                     </div>
-                    <div class="carousel-caption">
+                    <div class="carousel-caption" style="vertical-align: middle;">
                       <a ng-click="networkAndShowCtrl.playEpisode($index)">
                         <p class="lead">{{episode.title}}</p>
                       </a>
@@ -86,16 +87,17 @@
                 </div>
 
                 <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <a class="left carousel-control" data-target="#carousel-example-generic" role="button" data-slide="prev">
                   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <a class="right carousel-control" data-target="#carousel-example-generic" role="button" data-slide="next">
                   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
               </div>
             </div>
+            <br>
           </div>
         </div>
 
