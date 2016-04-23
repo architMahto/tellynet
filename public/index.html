@@ -2,14 +2,10 @@
 <html ng-app="tellyNetApp">
   <head>
     <meta charset="utf-8">
-    <title>TellyNet</title>
+    <title>tellynet</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <!-- Slick CSS -->
-    <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick.css">
-    <!-- Slick Theme CSS -->
-    <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick-theme.css">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <!-- Open Sans Google Font -->
@@ -49,55 +45,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-inverse navbar-static-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><h1><span style="color: #CF142B">telly</span>net</h1></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                Filter By Country <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="#">United Kingdom</a></li>
-                <li><a href="#">United States of America</a></li>
-              </ul>
-            </li>
-          </ul>
-
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                User <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Favorite Episodes</a></li>
-                <li><a href="#">Favorite Special Features</a></li>
-                <li><a href="#">Favorite Musical Moments</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Your Account</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Log Out</a></li>
-              </ul>
-            </li>
-          </ul>
-
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
+    <nav-bar></nav-bar>
 
     <div class="container">
       <div ui-view></div>
@@ -108,6 +56,8 @@
     <script type="text/javascript" src="/javascripts/app.js"></script>
     <!-- Network Factory -->
     <script type="text/javascript" src="/javascripts/factories/networksAndShowsFactory.js"></script>
+    <!-- Directives -->
+    <script type="text/javascript" src="/javascripts/directives/appDirectives.js"></script>
     <!-- Network and Show Controller -->
     <script type="text/javascript" src="/javascripts/controllers/networkAndShowController.js"></script>
     <!-- Watch Controller -->

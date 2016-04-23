@@ -6,6 +6,9 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   color: #ffffff;
   font-weight: 800;
+  font-size: 48px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .networks {
@@ -105,4 +108,17 @@ a:hover {
         width: 728px;
         height: 50px;
     }
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  height: 80px;
+  padding: 0 15px;
+}
+
+.navbar-nav>li>a {
+  line-height: 50px;
 }

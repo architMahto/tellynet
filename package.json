@@ -17,11 +17,15 @@
   },
   "homepage": "https://github.com/architMahto/tellynet#readme",
   "dependencies": {
+    "bcryptjs": "^2.3.0",
     "body-parser": "^1.15.0",
     "cors": "^2.7.1",
     "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "jsonwebtoken": "^5.7.0",
     "mongoose": "^4.4.12",
     "morgan": "^1.7.0",
+    "passport": "^0.3.2",
     "path": "^0.12.7"
   }
 }
