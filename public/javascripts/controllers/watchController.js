@@ -14,21 +14,20 @@
     watchCtrl.currentEpisode = $stateParams.e;
 
     watchCtrl.onPlayerReady = function (API) {
-      videoCtrl.API = API;
+      watchCtrl.API = API;
     }
 
     networksAndShowsFactory.getShow($stateParams.id)
       .then(function(res) {
         watchCtrl.videos = res.data;
 
-      })
-      .then(function () {
-        watchCtrl.sources = {
-          src: $sce.trustAsResourceUrl(watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes[watchCtrl.currentEpisode].videoURL),
-          type: "video/webm"
-        }
-      })
-      .then(function () {
+        watchCtrl.sources = [
+          {
+            src: $sce.trustAsResourceUrl(watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes[watchCtrl.currentEpisode].videoURL),
+            type: "video/webm"
+          }
+        ]
+
         watchCtrl.config = {
           autoHide: false,
           autoHideTime: 3000,
@@ -39,6 +38,7 @@
             poster: watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes[watchCtrl.currentEpisode].imageURL
           }
         };
+        
       })
 
 
