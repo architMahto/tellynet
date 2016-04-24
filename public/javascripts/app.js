@@ -10,7 +10,11 @@
     $stateProvider
       .state('home', {
         url: '/',
-        templateUrl: 'views/home.html',
+        templateUrl: 'views/home.html'
+      })
+      .state('browse', {
+        url: '/browse',
+        templateUrl: 'views/browse.html',
         controller: 'networkAndShowController as networkAndShowCtrl'
       })
       .state('watch', {

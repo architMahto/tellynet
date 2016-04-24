@@ -12,28 +12,34 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <a data-target="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Filter By Country <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
             <li><a ng-click="networkAndShowCtrl.showAll()">Show All Networks</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">United Kingdom</a></li>
-            <li><a href="#">United States of America</a></li>
+            <li>United Kingdom</li>
+            <li>United States of America</li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a data-target="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Filter By Favorites <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li>Favorite Episodes</li>
+            <li>Favorite Special Features</li>
           </ul>
         </li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <a data-target="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             User <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="#">Favorite Episodes</a></li>
-            <li><a href="#">Favorite Special Features</a></li>
-            <li><a href="#">Favorite Musical Moments</a></li>
-            <li role="separator" class="divider"></li>
             <li><a href="#">Your Account</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Log Out</a></li>
