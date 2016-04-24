@@ -112,6 +112,7 @@ a:hover {
 
 .navbar {
   min-height: 80px;
+  margin-bottom: 0px;
 }
 
 .navbar-brand {
@@ -123,10 +124,10 @@ a:hover {
   line-height: 50px;
 }
 
-.signup label {
+.signup label, h2 {
   color: #fff;
 }
 
-.login label {
+.login label, h2 {
   color: #fff;
 }
