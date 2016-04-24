@@ -122,3 +122,11 @@ a:hover {
 .navbar-nav>li>a {
   line-height: 50px;
 }
+
+.signup label {
+  color: #fff;
+}
+
+.login label {
+  color: #fff;
+}
