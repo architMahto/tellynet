@@ -11,7 +11,7 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="dropdown">
+        <li class="dropdown" ng-hide="{{vm.login}}">
           <a data-target="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Filter By Country <span class="caret"></span>
           </a>
@@ -23,7 +23,7 @@
           </ul>
         </li>
 
-        <li class="dropdown">
+        <li class="dropdown"  ng-hide="{{vm.login}}">
           <a data-target="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Filter By Favorites <span class="caret"></span>
           </a>
@@ -35,7 +35,7 @@
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
+        <li class="dropdown"  ng-hide="{{vm.login}}">
           <a data-target="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             User <span class="caret"></span>
           </a>
@@ -44,6 +44,20 @@
             <li role="separator" class="divider"></li>
             <li><a href="#">Log Out</a></li>
           </ul>
+        </li>
+
+        <li ng-show="{{vm.login}}">
+          <form class="navbar-form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-danger">Log In</button>
+            </div>
+          </form>
         </li>
       </ul>
     </div><!--/.navbar-collapse -->

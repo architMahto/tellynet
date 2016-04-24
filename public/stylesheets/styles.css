@@ -131,3 +131,8 @@ a:hover {
 .login label, h2 {
   color: #fff;
 }
+
+.navbar-form {
+  padding: 10px 25px;
+  margin-top: 15px;
+}
