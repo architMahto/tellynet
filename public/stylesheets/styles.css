@@ -17,13 +17,13 @@ h1 {
 
 .networks li {
   display: inline-block;
-  margin: 0 10px 0 0;
+  margin: 0 10px 10px 0;
 }
 
 .image-holder {
   background: #ffffff;
-  width: 250px;
-  height: 250px;
+  width: 175px;
+  height: 175px;
   border-radius: 10px;
   position: relative;
 }

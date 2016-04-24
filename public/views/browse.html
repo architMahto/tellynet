@@ -1,5 +1,7 @@
 <nav-bar></nav-bar>
 
+<br>
+
 <div class="container">
   <div class="row">
     <div class="dropdown" ng-show="networkAndShowCtrl.networksList">
@@ -23,15 +25,15 @@
     <br>
   </div>
 
-  <ul class="networks" ng-show="networkAndShowCtrl.networksList">
-    <li ng-repeat="network in networkAndShowCtrl.networks">
-      <a class="hvr-grow" ng-click="networkAndShowCtrl.getShows(network._id)">
-        <div class="image-holder">
-          <img ng-src="{{network.logo}}" />
-        </div>
-      </a>
-    </li>
-  </ul>
+  <div class="row">
+    <ul class="networks" ng-show="networkAndShowCtrl.networksList">
+      <li ng-repeat="network in networkAndShowCtrl.networks">
+        <div class=".col-md-3 image-holder hvr-grow" ng-click="networkAndShowCtrl.getShows(network._id)">
+          <img ng-src="{{network.logo}}" style="width: 150px;"/>
+        </a>
+      </li>
+    </ul>
+  </div>
 
   <ul class="shows" ng-show="networkAndShowCtrl.showsList">
     <li ng-repeat="show in networkAndShowCtrl.shows">
