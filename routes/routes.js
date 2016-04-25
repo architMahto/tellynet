@@ -10,6 +10,12 @@ router.route('/signIn')
 
 router.route('/users')
   .post(usersCtrl.userController.create)
+  .get(usersCtrl.userController.all)
+
+router.route('/users/:id')
+  .get(usersCtrl.userController.single)
+  .put(usersCtrl.userController.update)
+  .delete(usersCtrl.userController.destroy)
 
 router.use(function (req, res, next) {
   var token = req.body.token || req.params.token || req.headers['x-access-token'];

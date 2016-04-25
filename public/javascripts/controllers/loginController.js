@@ -16,7 +16,7 @@
 
       Auth.getUser()
         .then(function (response) {
-          lCtrl.user = response.data;
+          loginCtrl.user = response.data;
           console.log("api/me route", response);
         })
     });

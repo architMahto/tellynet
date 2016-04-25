@@ -12,10 +12,42 @@ module.exports = {
         else {res.json(user);}
       });
     },
-    get: function (req, res) {
+    all: function (req, res) {
       User.find({}, function(err, users) {
-        if (err) res.json(err)
-        res.json(users)
+        if (err) res.json(err);
+        res.json(users);
+      })
+    },
+    single: function (req, res) {
+      var id = req.params.id;
+
+      User.findOne({_id: id}, function (err, user) {
+        if (err) res.json(err);
+        res.json(user);
+      })
+    },
+    update: function (req, res) {
+      var id = req.params.id;
+
+      User.findOne({_id: id}, function (err, user) {
+        if (err) res.json(err);
+
+        if (req.body.email) {user.email = req.body.email;}
+        if (req.body.password) {user.password = req.body.password;}
+
+        user.save(function (err, response) {
+          if (err) res.json(err);
+          res.json(response);
+        })
+      })
+    },
+    destroy: function (req, res) {
+      var id = req.params.id;
+
+      User.remove({_id: id}, function (err, user) {
+        if (err) res.json(err);
+
+        res.json({message: "Deleted User!"})
       })
     },
     signIn: function (req, res) {
