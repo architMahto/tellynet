@@ -4,14 +4,19 @@
   angular.module('watchControllers', [])
     .controller('watchController', watchController);
 
-  watchController.$inject = ['networksAndShowsFactory', '$stateParams', '$sce', '$q'];
+  watchController.$inject = ['networksAndShowsFactory', '$stateParams', '$sce', '$timeout'];
 
-  function watchController(networksAndShowsFactory, $stateParams, $sce, $q) {
+  function watchController(networksAndShowsFactory, $stateParams, $sce, $timeout) {
     var watchCtrl = this;
 
     watchCtrl.API = null;
     watchCtrl.currentSeason  = $stateParams.s;
     watchCtrl.currentEpisode = $stateParams.e;
+    watchCtrl.max = 5000;
+    watchCtrl.current = 0;
+    watchCtrl.timer = null;
+    watchCtrl.isCompleted = false;
+    watchCtrl.currentVideo = 0;
 
     watchCtrl.onPlayerReady = function (API) {
       watchCtrl.API = API;
@@ -57,7 +62,31 @@
         }
       ]
       watchCtrl.config.plugins.poster = watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes[watchCtrl.currentEpisode].imageURL;
-    };
+    }
+
+    watchCtrl.onComplete = function () {
+      if (watchCtrl.currentSeason < watchCtrl.videos.seasons.length - 1) {
+        if (watchCtrl.currentEpisode === watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes.length - 1) {
+          watchCtrl.currentSeason++;
+          watchCtrl.currentEpisode = 0;
+          watchCtrl.currentSeasonTitle = watchCtrl.videos.seasons[watchCtrl.currentSeason].title;
+        } else {
+          watchCtrl.currentEpisode++;
+        }
+      } else {
+        if (watchCtrl.currentEpisode < watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes.length - 1) {
+          watchCtrl.currentEpisode++;
+        } 
+      }
+
+      watchCtrl.config.sources = [
+        {
+          src: $sce.trustAsResourceUrl(watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes[watchCtrl.currentEpisode].videoURL),
+          type: "video/webm"
+        }
+      ]
+      watchCtrl.config.plugins.poster = watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes[watchCtrl.currentEpisode].imageURL;
+    }
 
   }
 })()

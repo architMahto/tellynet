@@ -36,6 +36,7 @@
     "angular-slick": "^0.2.1",
     "slick-carousel": "^1.5.9",
     "hover": "Hover#^2.0.2",
-    "angular-messages": "^1.5.5"
+    "angular-messages": "^1.5.5",
+    "angular-svg-round-progressbar": "^0.4.2"
   }
 }
