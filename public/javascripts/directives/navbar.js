@@ -8,18 +8,10 @@
   function navBar() {
     var directive = {
       restrict: 'EA',
-      templateUrl: '/javascripts/directives/navbar.html',
-      scope: {
-        login: '='
-      },
-      controller: ExampleContrller,
-      controllerAs: 'vm',
-      bindToController: true
+      templateUrl: '/javascripts/directives/navbar.html'
     };
     return directive;
   }
 
-  function ExampleContrller() {
-    var vm = this;
-  }
+
 })()
