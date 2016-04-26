@@ -1,5 +1,14 @@
 [
   {
+    "name": "Fargo",
+    "details": {
+      "synopsis": ""
+    },
+    "seasons": [],
+    "specialFeatures": [],
+    "poster": ""
+  },
+  {
     "name": "Marvel's Agent Carter",
     "details": {
       "synopsis": "It is 1946, a year after the end of World War II and the disappearance of Captain America. Thousands of trained men and women have come home from fighting, looking for a new place to use their skills. One of those is Peggy, still despondent after the loss of Steve and hampered from getting a better job by the misogyny of the times. But in between tedious office work for the SSR, Peggy is contacted by her old friend Howard Stark, eventual father of Tony Stark, who needs her help in clearing his name and finding whoever is stealing his restricted weapons. Accompanied by his butler Edwin Jarvis, Peggy puts her skills to the test, beating up bad guys and laying the foundation of S.H.I.E.L.D. itself."
@@ -413,6 +422,15 @@
     "network": "571a3f78562809f501ee8a69"
   },
   {
+    "name": "Sherlock",
+    "details": {
+      "synopsis": ""
+    },
+    "seasons": [],
+    "specialFeatures": [],
+    "poster": ""
+  },
+  {
     "name": "Silicon Valley",
     "details": {
       "synopsis": "Richard Hendricks, a meek computer programmer, inadvertently creates a lossless file compression algorithm. His invention quickly sparks a bidding war between his employer, Gavin Belson, and billionaire tech investor Peter Gregory. Gavin offers him $10 million to sell, but Peter Gregory convinces him to accept an investment and create a start-up around his new product. Richard soon finds himself in over his head as he struggles to build a potential billion-dollar business."
@@ -558,5 +576,23 @@
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/HBO/Silicon+Valley/siliconValleyPoster.jpg",
     "network": "571a3f78562809f501ee8a67"
+  },
+  {
+    "name": "The Office",
+    "details": {
+      "synopsis": ""
+    },
+    "seasons": [],
+    "specialFeatures": [],
+    "poster": ""
+  },
+  {
+    "name": "You're The Worst",
+    "details": {
+      "synopsis": ""
+    },
+    "seasons": [],
+    "specialFeatures": [],
+    "poster": ""
   }
 ]

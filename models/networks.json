@@ -6,6 +6,30 @@
     "logo": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/ABC.jpg"
   },
   {
+    "name": "BBC One",
+    "country": "United Kingdom",
+    "shows": [],
+    "logo": ""
+  },
+  {
+    "name": "BBC Two",
+    "country": "United Kingdom",
+    "shows": [],
+    "logo": ""
+  },
+  {
+    "name": "FX",
+    "country": "United States of America",
+    "shows": [],
+    "logo": ""
+  },
+  {
+    "name": "FXX",
+    "country": "United States of America",
+    "shows": [],
+    "logo": ""
+  },
+  {
     "name": "HBO",
     "country": "United States of America",
     "shows": [],
