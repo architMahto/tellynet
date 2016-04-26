@@ -36,6 +36,9 @@
       <div class="col-md-6">
         <form class="signup" name="userForm" ng-submit="loginCtrl.signUp()">
           <h2 class="text-center">Join Now</h2>
+          <div class="form-group has-success" ng-show="loginCtrl.successMessage">
+            <p class="lead help-block text-center">Successfully created account.</p>
+          </div>
           <br />
           <div class="form-group" ng-class="{ 'has-error': userForm.firstName.$touched && userForm.firstName.$invalid, 'has-success': userForm.firstName.$touched && userForm.firstName.$valid }">
             <label for="inputFirstName">First Name</label>

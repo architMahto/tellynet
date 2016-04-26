@@ -64,7 +64,7 @@
   }
 
   function AuthInterceptor($q, AuthToken, $location) {
-    console.log("AuthInterceptor Running");
+    // console.log("AuthInterceptor Running");
     var interceptorFactory = {};
 
     // attach the token to every HTTP request
@@ -81,8 +81,8 @@
     // redirect if a token does not authenticate
     // happens on response errors
     interceptorFactory.responseError = function (response) {
-      console.log("Server Error");
-      console.log(response.status);
+      // console.log("Server Error");
+      // console.log(response.status);
 
       // if server returns a 403 forbidden response, redirect to home page.
       if (response.status == 403) $location.path('/');

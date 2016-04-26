@@ -8,7 +8,7 @@
 
   function usersFactory($http) {
     var userData = {};
-    var usersUrl = 'http://localhost:3000/api/v1/users/';
+    var usersUrl = 'api/v1/users/';
 
     // get all users
     userData.all = function () {

@@ -8,9 +8,9 @@
 
   function networksAndShowsFactory($http) {
     var networksAndShowsData = {};
-    var networksUrl       = 'http://localhost:3000/api/v1/networks/';
-    var showsByNetworkUrl = 'http://localhost:3000/api/v1/showsbynetwork/';
-    var showsUrl          = 'http://localhost:3000/api/v1/shows/';
+    var networksUrl       = 'api/v1/networks/';
+    var showsByNetworkUrl = 'api/v1/showsbynetwork/';
+    var showsUrl          = 'api/v1/shows/';
 
     networksAndShowsData.all       = function () {
       return $http.get(networksUrl);

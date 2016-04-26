@@ -10,6 +10,7 @@
     var loginCtrl = this;
     loginCtrl.error = "";
     loginCtrl.newUserData = {};
+    loginCtrl.successMessage = false;
 
     $rootScope.$on('$stateChangeSuccess', function () {
 
@@ -31,7 +32,7 @@
     loginCtrl.signUp = function () {
       usersFactory.create(loginCtrl.newUserData)
         .then(function(response) {
-          console.log("Response from server: ", response);
+          loginCtrl.successMessage = !loginCtrl.successMessage;
         })
     }
 
@@ -50,6 +51,8 @@
     loginCtrl.doLogout = function () {
       Auth.logout();
       loginCtrl.user = '';
+      loginCtrl.newUserData = {};
+      loginCtrl.successMessage = false;
       $location.path('/')
     }
   }
