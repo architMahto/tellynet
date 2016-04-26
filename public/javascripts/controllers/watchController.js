@@ -76,7 +76,7 @@
       } else {
         if (watchCtrl.currentEpisode < watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes.length - 1) {
           watchCtrl.currentEpisode++;
-        } 
+        }
       }
 
       watchCtrl.config.sources = [
