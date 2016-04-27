@@ -523,11 +523,97 @@
   {
     "name": "Sherlock",
     "details": {
-      "synopsis": ""
+      "synopsis": "In this updated take on Arthur Conan Doyle's beloved mystery tales, the eccentric sleuth prowls the streets of modern-day London in search of clues."
     },
-    "seasons": [],
+    "seasons": [
+      {
+        "title": "Series 1",
+        "episodes": [
+          {
+            "title": "A Study in Pink",
+            "number": 1,
+            "synopsis": "War vet Dr. John Watson returns to London in need of a place to stay. He meets Sherlock Holmes, a consulting detective, and the two soon find themselves digging into a string of serial 'suicides'.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+1/Sherlock+101+-+A+Study+In+Pink.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+1/sherlock11.png"
+          },
+          {
+            "title": "The Blind Banker",
+            "number": 2,
+            "synopsis": "Mysterious symbols and murders are showing up all over London, leading Sherlock and John to a secret Chinese crime syndicate called Black Lotus.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+1/Sherlock+102+-+The+Blind+Banker.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+1/sherlock12.png"
+          },
+          {
+            "title": "The Great Game",
+            "number": 3,
+            "synopsis": "Mycroft needs Sherlock's help, but a remorseless criminal mastermind puts Sherlock on a distracting crime-solving spree via a series of hostage human bombs through which he speaks.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+1/Sherlock+103+-+The+Great+Game.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+1/sherlock13.png"
+          }
+        ]
+      },
+      {
+        "title": "Series 2",
+        "episodes": [
+          {
+            "title": "A Scandal in Belgravia",
+            "number": 1,
+            "synopsis": "Sherlock must confiscate something of importance from a mysterious woman named Irene Adler.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+2/Sherlock+201+-+A+Scandal+In+Belgravia.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+2/sherlock21.png"
+          },
+          {
+            "title": "The Hounds of Baskerville",
+            "number": 2,
+            "synopsis": "Sherlock and John investigate the ghosts of a young man who has been seeing monstrous hounds out in the woods where his father died.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+2/Sherlock+202+-+The+Hounds+Of+Baskerville.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+2/sherlock22.png"
+          },
+          {
+            "title": "The Reichenbach Fall",
+            "number": 3,
+            "synopsis": "Jim Moriarty hatches a mad scheme to turn the whole city against Sherlock.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+2/Sherlock+203+-+The+Reichenbach+Fall.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+2/sherlock23.png"
+          }
+        ]
+      },
+      {
+        "title": "Series 3",
+        "episodes": [
+          {
+            "title": "Many Happy Returns",
+            "number": 0,
+            "synopsis": "John and Lestrade try to move on with their lives after Sherlock's apparent death. However, Anderson believes he is still alive.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+3/Sherlock+300+-+Many+Happy+Returns.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+3/sherlock30.png"
+          },
+          {
+            "title": "The Empty Hearse",
+            "number": 1,
+            "synopsis": "Mycroft calls Sherlock back to London to investigate an underground terrorist organization.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+3/Sherlock+301+-+The+Empty+Hearse.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+3/sherlock31.png"
+          },
+          {
+            "title": "The Sign of Three",
+            "number": 2,
+            "synopsis": "Sherlock tries to give the perfect best man speech at John's wedding when he suddenly realizes a murder is about to take place.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+3/Sherlock+302+-+The+Sign+Of+Three.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+3/sherlock32.png"
+          },
+          {
+            "title": "His Last Vow",
+            "number": 3,
+            "synopsis": "Sherlock goes up against the notorious blackmailer Charles Augustus Magnussen.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+3/Sherlock+303+-+His+Last+Vow.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/Season+3/sherlock33.png"
+          }
+        ]
+      }
+    ],
     "specialFeatures": [],
-    "poster": ""
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/sherlock.jpg"
   },
   {
     "name": "Silicon Valley",
@@ -679,11 +765,125 @@
   {
     "name": "The Office",
     "details": {
-      "synopsis": ""
+      "synopsis": "The story of an office that faces closure when the company decides to downsize its branches. A documentary film crew follow staff and the manager Brent as they continue their daily lives."
     },
-    "seasons": [],
+    "seasons": [
+      {
+        "title": "Series 1",
+        "episodes": [
+          {
+            "title": "Downsize",
+            "number": 1,
+            "synopsis": "David Brent is informed by Head Office that his Slough branch of Wernham Hogg paper merchants might be closed down. David's deep rooted need to be popular triumphs over realism and he immediately promises the staff there will be no redundancies.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+1/The+Office+101+-+Downsize.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+1/theOffice11.png"
+          },
+          {
+            "title": "Work Experience",
+            "number": 2,
+            "synopsis": "David hires Donna, his lodger and the daughter of his best friend. While showing her round the office he discovers a doctored pornographic image of himself. Gareth, due to his covert operations skills, is told to catch the culprit.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+1/The+Office+102+-+Work+Experience.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+1/theOffice12.png"
+          },
+          {
+            "title": "The Quiz",
+            "number": 3,
+            "synopsis": "It is Tim's 30th birthday - he receives a card from Dawn and an unusual inflatable gift from Lee. More importantly, however, it's Quiz Night and there are reputations to be made or lost.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+1/The+Office+103+-+The+Quiz.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+1/theOffice13.png"
+          },
+          {
+            "title": "Training",
+            "number": 4,
+            "synopsis": "To fend off the increasing staff disillusionment a Training Day has been scheduled. Dawn's engagement to Lee is on the rocks and Tim begins to think that he may at last have a chance with her.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+1/The+Office+104+-+Training.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+1/theOffice14.png"
+          },
+          {
+            "title": "New Girl",
+            "number": 5,
+            "synopsis": "David interviews for a new secretary and chooses blonde Karen. His efforts to impress end spectacularly badly when he accidentally head butts her. Meanwhile Donna's late arrival at work inevitably sparks the rumor that she is sleeping with a colleague.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+1/The+Office+105+-+New+Girl.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+1/theOffice15.png"
+          },
+          {
+            "title": "Judgement",
+            "number": 6,
+            "synopsis": "It is redundancies judgement day and David is told by Head Office that he will be promoted if he sacrifices the branch. True to his innate sense of self-preservation and greed David leaps at the chance for betterment.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+1/The+Office+106+-+Judgement.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+1/theOffice16.png"
+          }
+        ]
+      },
+      {
+        "title": "Series 2",
+        "episodes": [
+          {
+            "title": "Merger",
+            "number": 1,
+            "synopsis": "Two weeks after the announcement that Slough has been saved from the chop it is merger day and six new employees arrive from Swindon along with Neil - David's dynamic new boss. New girl Rachel immediately catches the interest of Tim and Gareth.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+2/The+Office+201+-+Merger.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+2/theOffice21.png"
+          },
+          {
+            "title": "Appraisals",
+            "number": 2,
+            "synopsis": "Staff appraisals cue secret confessions - Tim still harbors dreams of returning to university to study Psychology, while Dawn reveals she always wanted to be a children's illustrator. Keith on the other hand reveals only the immense vacuity of his mind.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+2/The+Office+202+-+Appraisals.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+2/theOffice22.png"
+          },
+          {
+            "title": "Party",
+            "number": 3,
+            "synopsis": "It's Trudy's birthday and in traditional highbrow office style she receives some sex toys - namely a leather basque and a neon pink dildo with an inspired sense of movement. Meanwhile David's radical new made-up business strategy of 'team individuality' fails to impress Neil.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+2/The+Office+203+-+Party.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+2/theOffice23.png"
+          },
+          {
+            "title": "Motivation",
+            "number": 4,
+            "synopsis": "Tim and Rachel finally appear to have 'done the deed' and are confronted by a horrified Gareth, who is perhaps most upset by the realization that he'd still like to 'do' Rachel even though she is now, as he so charmingly puts it, sloppy seconds.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+2/The+Office+204+-+Motivation.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+2/theOffice24.png"
+          },
+          {
+            "title": "Charity",
+            "number": 5,
+            "synopsis": "It's Comic Relief Day and the office is awash with wackiness. All 19 stone of Keith is squeezed into a bright yellow Ali G costume, Sheila has become Wonder Woman and Gareth is hopping on one leg. The hilarity peaks when Neil and Rachel stage a dance sequence from Saturday Night Fever in the reception area. David, desperate to outdo them, embarks on his own spontaneous dance.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+2/The+Office+205+-+Charity.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+2/theOffice25.png"
+          },
+          {
+            "title": "Interview",
+            "number": 6,
+            "synopsis": "It's David last day and he is outwardly very calm about it all. The company has sent a writer to interview him for an article on leadership and his idea is to dictate the contents rather than answer any of her questions. He thinks he has a bright future as a trainer but gets bad news on that front as well. He tries to reverse Neil's decision but to no avail. Tim decides it's time to have a chat with Dawn. Gareth is convinced that he's in line to replace David.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+2/The+Office+206+-+Interview.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Season+2/theOffice26.png"
+          }
+        ]
+      },
+      {
+        "title": "Christmas Specials",
+        "episodes": [
+          {
+            "title": "Episode One",
+            "number": 1,
+            "synopsis": "David Brent is now a sales rep for a cleaning company and makes celebrity appearances. Gareth is now in charge of running things at the office.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Christmas+Specials/The+Office+-+Christmas+Special+Part+1.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Christmas+Specials/theOfficeChristmas1.png"
+          },
+          {
+            "title": "Episode Two",
+            "number": 2,
+            "synopsis": "David finds a date for the office Christmas party. The team dances and drinks the night away while Tim wonders if he'll ever see Dawn again.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Christmas+Specials/The+Office+-+Christmas+Special+Part+2.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/Christmas+Specials/theOfficeChristmas2.png"
+          }
+        ]
+      }
+    ],
     "specialFeatures": [],
-    "poster": ""
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/theofficeUK.jpg"
   },
   {
     "name": "You're The Worst",
