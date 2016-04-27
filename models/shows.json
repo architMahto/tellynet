@@ -157,7 +157,8 @@
       }
     ],
     "specialFeatures": [],
-    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/fargo.jpg"
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/fargo.jpg",
+    "network": "5721278344d81b770f4b8052"
   },
   {
     "name": "Marvel's Agent Carter",
@@ -304,7 +305,7 @@
     ],
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/agentCarterPoster.jpg",
-    "network": "571a3f78562809f501ee8a66"
+    "network": "5721278344d81b770f4b8044"
   },
   {
     "name": "Mr. Bean",
@@ -432,7 +433,7 @@
       }
     ],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/mrBeanPoster.jpg",
-    "network": "571a3f78562809f501ee8a68"
+    "network": "5721278344d81b770f4b8057"
   },
   {
     "name": "Mr. Robot",
@@ -518,7 +519,7 @@
     ],
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/mrRobotPoster.jpg",
-    "network": "571a3f78562809f501ee8a69"
+    "network": "5721278344d81b770f4b8065"
   },
   {
     "name": "Sherlock",
@@ -613,7 +614,8 @@
       }
     ],
     "specialFeatures": [],
-    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/sherlock.jpg"
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/sherlock.jpg",
+    "network": "5721278344d81b770f4b8046"
   },
   {
     "name": "Silicon Valley",
@@ -760,7 +762,7 @@
     ],
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/HBO/Silicon+Valley/siliconValleyPoster.jpg",
-    "network": "571a3f78562809f501ee8a67"
+    "network": "5721278344d81b770f4b8055"
   },
   {
     "name": "The Office",
@@ -883,7 +885,8 @@
       }
     ],
     "specialFeatures": [],
-    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/theofficeUK.jpg"
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/theofficeUK.jpg",
+    "network": "5721278344d81b770f4b8047"
   },
   {
     "name": "You're The Worst",
@@ -1064,6 +1067,7 @@
       }
     ],
     "specialFeatures": [],
-    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/youreTheWorst.jpg"
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/youreTheWorst.jpg",
+    "network": "5721278344d81b770f4b8053"
   }
 ]
