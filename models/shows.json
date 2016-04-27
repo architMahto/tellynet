@@ -2,11 +2,162 @@
   {
     "name": "Fargo",
     "details": {
-      "synopsis": ""
+      "synopsis": "Inspired by the classic Coen Brothers film of the same title, this anthology series embroils several quirky Minnesotans in different 'true' crimes."
     },
-    "seasons": [],
+    "seasons": [
+      {
+        "title": "Season 1",
+        "episodes": [
+          {
+            "title": "The Crocodile's Dilemma",
+            "number": 1,
+            "synopsis": "A rootless, manipulative man meets a small town insurance salesman and sets him on a path of destruction.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/Fargo+101+-+The+Crocodile%27s+Dilemma.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/fargo11.png"
+          },
+          {
+            "title": "The Rooster Prince",
+            "number": 2,
+            "synopsis": "Molly begins to suspect that Lester is involved with the murders, but her new boss points her in a different direction. Meanwhile, Malvo investigates the blackmail plot against a man known as the Supermarket King.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/Fargo+102+-+The+Rooster+Prince.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/fargo12.png"
+          },
+          {
+            "title": "A Muddy Road",
+            "number": 3,
+            "synopsis": "Malvo flips the script on the blackmail operation, Molly sets a trap, and Gus debates whether he should come clean. Lester's return to work has complicated repercussions.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/Fargo+103+-+A+Muddy+Road.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/fargo13.png"
+          },
+          {
+            "title": "Eating the Blame",
+            "number": 4,
+            "synopsis": "When Gus tries to right a wrong, Malvo embraces his alter ego. Lester finds himself in a surprising situation, and Molly uncovers a promising lead.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/Fargo+104+-+Eating+the+Blame.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/fargo14.png"
+          },
+          {
+            "title": "The Six Ungraspables",
+            "number": 5,
+            "synopsis": "When Lester has a close call, Molly makes an unorthodox decision. Gus weighs some neighborly advice, and Malvo gets what he wants.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/Fargo+105+-+The+Six+Ungraspables.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/fargo15.png"
+          },
+          {
+            "title": "Buridan's Ass",
+            "number": 6,
+            "synopsis": "Malvo executes his master plan, while Lester attempts to craft one of his own. Gus and Molly team up in Duluth.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/Fargo+106+-+Buridan%27s+Ass.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/fargo16.png"
+          },
+          {
+            "title": "Who Shaves the Barber?",
+            "number": 7,
+            "synopsis": "Malvo seeks answers, while Lester finagles a few of his own. Molly and Gus try to get past a setback in the investigation.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/Fargo+107+-+Who+Shaves+the+Barber.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/fargo17.png"
+          },
+          {
+            "title": "The Heap",
+            "number": 8,
+            "synopsis": "Molly faces pressure to close the case, while Lester starts to feel like a new man.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/Fargo+108+-+The+Heap.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/fargo18.png"
+          },
+          {
+            "title": "A Fox, a Rabbit, and a Cabbage",
+            "number": 9,
+            "synopsis": "Lester has an unexpected encounter, Malvo changes course, and a new investigation leads Molly down a familiar path.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/Fargo+109+-+A+Fox%2C+a+Rabbit%2C+and+a+Cabbage.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/fargo19.png"
+          },
+          {
+            "title": "Morton's Fork",
+            "number": 10,
+            "synopsis": "Molly takes the lead, while Gus pursues a hunch. Lester manipulates a situation, and Malvo finds a new target.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/Fargo+110+-+Morton%27s+Fork.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+1/fargo110.png"
+          }
+        ]
+      },
+      {
+        "title": "Season 2",
+        "episodes": [
+          {
+            "title": "Waiting for Dutch",
+            "number": 1,
+            "synopsis": "In 1979, an unexpected turn of events at a diner disrupts the lives of the citizens in a small Minnesota town.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/Fargo+201+-+Waiting+for+Dutch.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/fargo21.png"
+          },
+          {
+            "title": "Before the Law",
+            "number": 2,
+            "synopsis": "The Gerhardts get a surprising offer, and two unlikely murderers do their best to clean up their mess.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/Fargo+202+-+Before+The+Law.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/fargo22.png"
+          },
+          {
+            "title": "The Myth of Sisyphus",
+            "number": 3,
+            "synopsis": "The Gerhardts' search for Rye intensifies, Lou takes a trip to Fargo, and Peggy overhears a new theory about the Waffle Hut shooter.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/Fargo+203+-+The+Myth+of+Sisyphus.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/fargo23.png"
+          },
+          {
+            "title": "Fear and Trembling",
+            "number": 4,
+            "synopsis": "Floyd responds to Kansas City's proposal, Hanzee takes a road trip, and Lou has a realization.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/Fargo+204+-+Fear+and+Trembling.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/fargo24.png"
+          },
+          {
+            "title": "The Gift of the Magi",
+            "number": 5,
+            "synopsis": "Floyd takes action, and Charlie tries to prove himself. Peggy and Ed disagree about what to do next, while Lou finds himself sidelined during Ronald Reagan's campaign tour.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/Fargo+205+-+The+Gift+of+the+Magi.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/fargo25.png"
+          },
+          {
+            "title": "Rhinoceros",
+            "number": 6,
+            "synopsis": "Lou and Hank try to prevent an altercation, Peggy and Ed defend their choices and the Gerhardt clan attempts to get back one of their own.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/Fargo+206+-+Rhinoceros.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/fargo26.png"
+          },
+          {
+            "title": "Did you do this? No, you did it!",
+            "number": 7,
+            "synopsis": "Lou and Hank investigate in Fargo, The King of Breakfast visits Betsy and Molly, Floyd is summoned away and Bear questions a family member's loyalty.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/Fargo+207+-+Did+you+do+this%3F+No%2C+you+did+it!.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/fargo27.png"
+          },
+          {
+            "title": "Loplop",
+            "number": 8,
+            "synopsis": "Hanzee searches for Peggy and Ed. Dodd ends up in unfamiliar territory.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/Fargo+208+-+Loplop.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/fargo28.png"
+          },
+          {
+            "title": "The Castle",
+            "number": 9,
+            "synopsis": "Peggy and Ed agree to follow through with their plan at the Motor Motel, Lou faces jurisdictional politics and Hanzee reports back to the Gerhardts.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/Fargo+209+-+The+Castle.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/fargo29.png"
+          },
+          {
+            "title": "Palindrome",
+            "number": 10,
+            "synopsis": "Peggy and Ed make a run for it.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/Fargo+210+-+Palindrome.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/Season+2/fargo210.png"
+          }
+        ]
+      }
+    ],
     "specialFeatures": [],
-    "poster": ""
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/fargo.jpg"
   },
   {
     "name": "Marvel's Agent Carter",
@@ -268,58 +419,6 @@
             "synopsis": "On a rainy day, Bean tries to find an umbrella for Teddy.",
             "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/Mr+Bean+15+-+The+Best+Bits+of+Mr+Bean.webm",
             "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Episodes/mrbean15.png"
-          }
-        ]
-      },
-      {
-        "title": "Other Sketches",
-        "episodes": [
-          {
-            "title": "The Library",
-            "number": 1,
-            "synopsis": "Mr. Bean visits a rare book library.",
-            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Other+Sketches/Mr+Bean+1+-+The+Library.webm",
-            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Other+Sketches/mrBeanCR1.png"
-          },
-          {
-            "title": "The Bus Stop",
-            "number": 2,
-            "synopsis": "Mr. Bean endures an agonizing time at a bus stop.",
-            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Other+Sketches/Mr+Bean+2+-+The+Bus+Stop.webm",
-            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Other+Sketches/mrBeanCR2.png"
-          }
-        ]
-      },
-      {
-        "title": "Comic Relief",
-        "episodes": [
-          {
-            "title": "Mr. Bean's Red Nose Day",
-            "number": 1,
-            "synopsis": "Mr. Bean celebrates Red Nose Day in spite of spending it at a police station.",
-            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Comic+Relief/Mr+Bean+1+-+Mr+Bean%27s+Red+Nose+Day.webm",
-            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Other+Sketches/mrBeanCR1.png"
-          },
-          {
-            "title": "Blind Date",
-            "number": 2,
-            "synopsis": "Mr. Bean is a contestant on Blind Date and winds up winning a date.",
-            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Comic+Relief/Mr+Bean+2+-+Blind+Date.webm",
-            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Other+Sketches/mrBeanCR2.png"
-          },
-          {
-            "title": "Torvill & Bean",
-            "number": 3,
-            "synopsis": "Mr. Bean goes on a date to an ice skating show.",
-            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Comic+Relief/Mr+Bean+3+-+Torville+And+Dean.webm",
-            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Other+Sketches/mrBeanCR3.png"
-          },
-          {
-            "title": "Mr Bean's Wedding",
-            "number": 4,
-            "synopsis": "Mr. Bean attends a wedding and brings his usual brand of chaos.",
-            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Comic+Relief/Mr+Bean+4+-+Mr+Bean%27s+Wedding.webm",
-            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/Other+Sketches/mrBeanCR4.png"
           }
         ]
       }
@@ -589,10 +688,182 @@
   {
     "name": "You're The Worst",
     "details": {
-      "synopsis": ""
+      "synopsis": "Centers on two toxic, self-destructive people who fall in love and attempt a relationship."
     },
-    "seasons": [],
+    "seasons": [
+      {
+        "title": "Season 1",
+        "episodes": [
+          {
+            "title": "Pilot",
+            "number": 1,
+            "synopsis": "Jimmy and Gretchen find themselves falling for each other despite their better judgment.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/You%27re+The+Worst+101+-+Pilot.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/youreTheWorst11.png"
+          },
+          {
+            "title": "Insouciance",
+            "number": 2,
+            "synopsis": "Jimmy attempts to take Gretchen on a date.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/You%27re+The+Worst+102+-+Insouciance.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/youreTheWorst12.png"
+          },
+          {
+            "title": "Keys Open Doors",
+            "number": 3,
+            "synopsis": "Gretchen inadvertently asks Jimmy for a key to his house.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/You%27re+The+Worst+103+-+Keys+Open+Doors.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/youreTheWorst13.png"
+          },
+          {
+            "title": "What Normal People Do",
+            "number": 4,
+            "synopsis": "Gretchen makes Jimmy come over to her disaster of an apartment.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/You%27re+The+Worst+104+-+What+Normal+People+Do.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/youreTheWorst14.png"
+          },
+          {
+            "title": "Sunday Funday",
+            "number": 5,
+            "synopsis": "Jimmy begrudgingly joins Gretchen, Edgar, and Lindsay on a 'Sunday Funday'.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/You%27re+The+Worst+105+-+Sunday+Funday.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/youreTheWorst15.png"
+          },
+          {
+            "title": "PTSD",
+            "number": 6,
+            "synopsis": "Jimmy accidentally sleeps with an A-List celebrity, he and Gretchen embark on a sex arms race to even out their score.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/You%27re+The+Worst+106+-+PTSD.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/youreTheWorst16.png"
+          },
+          {
+            "title": "Equally Dead Inside",
+            "number": 7,
+            "synopsis": "Jimmy opens up emotionally, which completely freaks Gretchen out.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/You%27re+The+Worst+107+-+Equally+Dead+Inside.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/youreTheWorst17.png"
+          },
+          {
+            "title": "Finish Your Milk",
+            "number": 8,
+            "synopsis": "Jimmy meets Gretchen's parents.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/You%27re+The+Worst+108+-+Finish+Your+Milk.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/youreTheWorst18.png"
+          },
+          {
+            "title": "Constant Horror and Bone-Deep Dissatisfaction",
+            "number": 9,
+            "synopsis": "An episode spanning the course of nearly three years, we see the events that lead up to Gretchen and Jimmy meeting.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/You%27re+The+Worst+109+-+Constant+Horror+and+Bone-Deep+Dissatisfaction.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/youreTheWorst19.png"
+          },
+          {
+            "title": "Fists and Feet and Stuff",
+            "number": 10,
+            "synopsis": "Jimmy and Gretchen take their relationship to the next level.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/You%27re+The+Worst+110+-+Fists+and+Feet+and+Stuff.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+1/youreTheWorst110.png"
+          }
+        ]
+      },
+      {
+        "title": "Season 2",
+        "episodes": [
+          {
+            "title": "The Sweater People",
+            "number": 1,
+            "synopsis": "A newly co-habitating Jimmy and Gretchen avoid a life of domesticity by partying non-stop. Edgar obsesses over Lindsay while an oblivious Lindsay makes a desperate attempt to reconcile with her husband.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/You%27re+the+Worst+201+-+The+Sweater+People.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/youreTheWorst21.png"
+          },
+          {
+            "title": "Crevasses",
+            "number": 2,
+            "synopsis": "Gretchen, realizing she doesn't really have any adult belongings, takes the gang on a trip to the mall. Jimmy uses this opportunity to gain some writing inspiration. Meanwhile, a newly single Lindsay recruits a hesitant Edgar to help her pick up guys.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/You%27re+the+Worst+202+-+Crevasses.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/youreTheWorst22.png"
+          },
+          {
+            "title": "Born Dead",
+            "number": 3,
+            "synopsis": "Gretchen makes an attempt to reconnect with her old group of friends by throwing herself a housewarming party. Jimmy does his best to affirm his belief that friends are for babies. Edgar continues his pursuit of Lindsay, and Lindsay meets her estranged husband's new girlfriend.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/You%27re+the+Worst+203+-+Born+Dead.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/youreTheWorst23.png"
+          },
+          {
+            "title": "All About That Paper",
+            "number": 4,
+            "synopsis": "Jimmy spends the day with an eccentric author on a day-long job interview. Gretchen deals with a work crisis. Edgar discovers the magic of improv comedy. And Lindsay gets served with divorce papers.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/You%27re+the+Worst+204+-+All+About+That+Paper.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/youreTheWorst24.png"
+          },
+          {
+            "title": "We Can Do Better Than This",
+            "number": 5,
+            "synopsis": "Jimmy questions his ability as a writer but finally zeroes in on his next project. Meanwhile, Gretchen and Lindsay discover all they do is talk about men and set out to change the status-quo. Edgar gets close to his improv teacher, Dorothy.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/You%27re+the+Worst+205+-+We+Can+Do+Better+Than+This.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/youreTheWorst25.png"
+          },
+          {
+            "title": "Side Bitch",
+            "number": 6,
+            "synopsis": "Jimmy discovers Gretchen's been sneaking out of the house at night and suspects she's having an affair. Lindsay's life spirals as she discovers she doesn't know how to live on her own. Edgar takes Dorothy out on a date.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/You%27re+the+Worst+206+-++Side+Bitch.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/youreTheWorst26.png"
+          },
+          {
+            "title": "There Is Not Currently a Problem",
+            "number": 7,
+            "synopsis": "Trapped in Jimmy's house by the LA Marathon, the gang tries to exterminate a mouse that's been living in the house. Gretchen reveals to Jimmy that she's clinically depressed.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/You%27re+the+Worst+207+-+There+Is+Not+Currently+a+Problem.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/youreTheWorst27.png"
+          },
+          {
+            "title": "Spooky Sunday Funday",
+            "number": 8,
+            "synopsis": "A Halloween-themed Sunday Funday; Jimmy sneakily tries to cure Gretchen of her depression by showing her a fun day.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/You%27re+the+Worst+208+-+Spooky+Sunday+Funday.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/youreTheWorst28.png"
+          },
+          {
+            "title": "LCD Soundsystem",
+            "number": 9,
+            "synopsis": "Gretchen becomes fascinated by a slightly older, cool couple that appears to have it all. Jimmy employs a punishment-based system to ensure he meets his writing deadline.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/You%27re+the+Worst+209+-+LCD+Soundsystem.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/youreTheWorst29.png"
+          },
+          {
+            "title": "A Right Proper Story",
+            "number": 10,
+            "synopsis": "Jimmy's trashy family comes to visit from England, much to Jimmy's dismay. In the throes of her depression, Gretchen struggles to help Jimmy entertain them. Lindsay fills in for Gretchen at work. Edgar bonds with Jimmy's little sister.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/You%27re+the+Worst+210+-+A+Right+Proper+Story.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/youreTheWorst210.png"
+          },
+          {
+            "title": "A Rapidly Mutating Virus",
+            "number": 11,
+            "synopsis": "Jimmy gets closer to his bartender friend, Nina. Gretchen accompanies Sam to do a radio interview. Edgar attempts to make inroads with Dorothy's comedy friends.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/You%27re+the+Worst+211+-+A+Rapidly+Mutating+Virus.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/youreTheWorst211.png"
+          },
+          {
+            "title": "Other Things You Could Be Doing",
+            "number": 12,
+            "synopsis": "Gretchen's depression comes to a head, forcing Jimmy to make a tough choice. Lindsay finally lets Paul go. Edgar has his improv graduation show.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/You%27re+the+Worst+212+-+Other+Things+You+Could+Be+Doing.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/youreTheWorst212.png"
+          },
+          {
+            "title": "The Heart Is a Dumb Dumb",
+            "number": 13,
+            "synopsis": "Jimmy attends Becca and Vernon's baby gender reveal party. Gretchen takes care of some unfinished business. Edgar and Dorothy's relationship reaches a turning point. Lindsay confronts Paul.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/You%27re+the+Worst+213+-+The+Heart+is+a+Dumb+Dumb.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/Season+2/youreTheWorst213.png"
+          }
+        ]
+      }
+    ],
     "specialFeatures": [],
-    "poster": ""
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/youreTheWorst.jpg"
   }
 ]
