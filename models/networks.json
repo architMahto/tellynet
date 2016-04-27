@@ -1,33 +1,111 @@
 [
   {
+    "name": "A&E",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/A%26E/A%26E.png"
+  },
+  {
     "name": "ABC",
     "country": "United States of America",
     "shows": [],
-    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/ABC.jpg"
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/ABC.png"
+  },
+  {
+    "name": "AMC",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/AMC.png"
   },
   {
     "name": "BBC One",
     "country": "United Kingdom",
     "shows": [],
-    "logo": ""
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/BBC_One.png"
   },
   {
     "name": "BBC Two",
     "country": "United Kingdom",
     "shows": [],
-    "logo": ""
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/BBC_Two.png"
+  },
+  {
+    "name": "CBC",
+    "country": "Canada",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/CBC/CBC.png"
+  },
+  {
+    "name": "CBS",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/CBS/CBS.png"
+  },
+  {
+    "name": "CTV",
+    "country": "Canada",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/CTV/CTV.png"
+  },
+  {
+    "name": "CW",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/CW/CW.png"
+  },
+  {
+    "name": "Cartoon Network",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/Cartoon+Network/cartoonNetwork.png"
+  },
+  {
+    "name": "Channel 4",
+    "country": "United Kingdom",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/Channel+4/Channel4.png"
+  },
+  {
+    "name": "City",
+    "country": "Canada",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/City/CityTV.png"
+  },
+  {
+    "name": "Comedy Central",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/Comedy+Central/comedyCentral.png"
+  },
+  {
+    "name": "E4",
+    "country": "United Kingdom",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/E4/E4.png"
+  },
+  {
+    "name": "FOX",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/FOX/FOX.png"
   },
   {
     "name": "FX",
     "country": "United States of America",
     "shows": [],
-    "logo": ""
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/FX/FX.png"
   },
   {
     "name": "FXX",
     "country": "United States of America",
     "shows": [],
-    "logo": ""
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/FXX.png"
+  },
+  {
+    "name": "Global TV",
+    "country": "Canada",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/Global+TV/GlobalTV.png"
   },
   {
     "name": "HBO",
@@ -36,15 +114,105 @@
     "logo": "https://s3-us-west-2.amazonaws.com/tellynet/HBO/HBO.png"
   },
   {
+    "name": "History",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/History/history.png"
+  },
+  {
     "name": "ITV",
     "country": "United Kingdom",
     "shows": [],
     "logo": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/ITV.png"
   },
   {
+    "name": "MTV",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/MTV/MTV.png"
+  },
+  {
+    "name": "NBC",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/NBC/NBC.png"
+  },
+  {
+    "name": "Nickelodeon",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/Nickelodeon/nickelodeon.png"
+  },
+  {
+    "name": "PBS",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/PBS/PBS.png"
+  },
+  {
+    "name": "Showcase",
+    "country": "Canada",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/Showcase/showcase.png"
+  },
+  {
+    "name": "Showtime",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/Showtime/showtime.png"
+  },
+  {
+    "name": "Space",
+    "country": "Canada",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/Space/space.png"
+  },
+  {
+    "name": "Starz",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/Starz/starz.png"
+  },
+  {
+    "name": "SundanceTV",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/SundanceTV/sundanceTV.jpg"
+  },
+  {
+    "name": "Syfy",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/SyFy/syfy.png"
+  },
+  {
+    "name": "TBS",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/TBS/TBS.png"
+  },
+  {
+    "name": "TNT",
+    "country": "United States of America",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/TNT/TNT.png"
+  },
+  {
+    "name": "Teletoon",
+    "country": "Canada",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/Teletoon/teletoon.png"
+  },
+  {
     "name": "USA",
     "country": "United States of America",
     "shows": [],
     "logo": "https://s3-us-west-2.amazonaws.com/tellynet/USA/USA.png"
+  },
+  {
+    "name": "YTV",
+    "country": "Canada",
+    "shows": [],
+    "logo": "https://s3-us-west-2.amazonaws.com/tellynet/YTV/YTV.png"
   }
 ]
