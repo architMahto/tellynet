@@ -42,8 +42,13 @@
       Auth.login(loginCtrl.loginData.email, loginCtrl.loginData.password)
         .then(function (response) {
           AuthToken.setToken(response.data.token);
-          if (response.data.success) {$location.path('/browse');}
-          else {loginCtrl.error = response.data.message;}
+          if (response.data.success) {
+            $location.path('/browse');
+          }
+          else {
+            loginCtrl.error = response.data.message;
+            console.log(loginCtrl.error);
+          }
         })
     }
 
