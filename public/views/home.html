@@ -67,11 +67,9 @@
 
           <div class="form-group" ng-class="{ 'has-error': userForm.password.$touched && userForm.password.$invalid, 'has-success': userForm.password.$touched && userForm.password.$valid }">
             <label for="inputPassword">Choose a Password</label>
-            <input type="password" name="password" class="form-control" id="inputPassword" ng-model="loginCtrl.newUserData.password" ng-minlength="8" ng-maxlength="12" placeholder="Password (8-12 characters)" required>
+            <input type="password" name="password" class="form-control" id="inputPassword" ng-model="loginCtrl.newUserData.password" placeholder="Password" required>
             <div class="help-block" ng-messages="userForm.password.$error" ng-show="userForm.password.$touched && userForm.password.$invalid">
               <p ng-message="required">A password is required.</p>
-              <p ng-message="minlength">Password is too short</p>
-              <p ng-message="maxlength">Password is too long</p>
             </div>
           </div>
 

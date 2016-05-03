@@ -11,6 +11,7 @@
     loginCtrl.error = "";
     loginCtrl.newUserData = {};
     loginCtrl.successMessage = false;
+    loginCtrl.loginErrorMessage = false;
 
     $rootScope.$on('$stateChangeSuccess', function () {
 
@@ -42,8 +43,13 @@
       Auth.login(loginCtrl.loginData.email, loginCtrl.loginData.password)
         .then(function (response) {
           AuthToken.setToken(response.data.token);
-          if (response.data.success) {$location.path('/browse');}
-          else {loginCtrl.error = response.data.message;}
+          if (response.data.success) {
+            $location.path('/browse');
+          }
+          else {
+            loginCtrl.error = response.data.message;
+            loginCtrl.loginErrorMessage = true;
+          }
         })
     }
 
@@ -52,6 +58,8 @@
       Auth.logout();
       loginCtrl.user = '';
       loginCtrl.newUserData = {};
+      loginCtrl.loginData = {};
+      loginCtrl.loginErrorMessage = false;
       loginCtrl.successMessage = false;
       $location.path('/')
     }

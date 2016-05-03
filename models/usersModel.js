@@ -4,8 +4,8 @@ var mongoose                  = require('mongoose'),
     userSchema                = new mongoose.Schema({
       firstName               : String,
       lastName                : String,
-      email                   : String,
-      password                : String,
+      email                   : {type: String, required: true, index: {unique: true}},
+      password                : {type: String, select: true},
       favoriteEpisodes        : [],
       favoriteSpecialFeatures : []
     });
