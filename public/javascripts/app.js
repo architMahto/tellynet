@@ -15,6 +15,10 @@
         url: '/',
         templateUrl: 'views/home.html'
       })
+      .state('signin', {
+        url: '/signin',
+        templateUrl: 'views/signin.html'
+      })
       .state('browse', {
         url: '/browse',
         templateUrl: 'views/browse.html',

@@ -48,15 +48,9 @@
         </li>
 
         <li ng-hide="{{loginCtrl.loggedIn}}">
-          <form class="navbar-form" ng-submit="loginCtrl.doLogin()">
+          <form class="navbar-form">
             <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control" ng-model="loginCtrl.loginData.email">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control" ng-model="loginCtrl.loginData.password">
-            </div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-danger">Log In</button>
+              <a class="btn btn-danger" ui-sref="signin" role="button">Sign In</a>
             </div>
           </form>
         </li>

@@ -11,6 +11,7 @@
     loginCtrl.error = "";
     loginCtrl.newUserData = {};
     loginCtrl.successMessage = false;
+    loginCtrl.loginErrorMessage = false;
 
     $rootScope.$on('$stateChangeSuccess', function () {
 
@@ -47,7 +48,7 @@
           }
           else {
             loginCtrl.error = response.data.message;
-            console.log(loginCtrl.error);
+            loginCtrl.loginErrorMessage = true;
           }
         })
     }
@@ -57,6 +58,8 @@
       Auth.logout();
       loginCtrl.user = '';
       loginCtrl.newUserData = {};
+      loginCtrl.loginData = {};
+      loginCtrl.loginErrorMessage = false;
       loginCtrl.successMessage = false;
       $location.path('/')
     }
