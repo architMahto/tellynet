@@ -5,10 +5,12 @@
   "com.2fdevs.videogular.plugins.next-video"])
     .config(routerConfig)
 
-  routerConfig.$inject = ['$stateProvider', '$urlRouterProvider', '$httpProvider']
+  routerConfig.$inject = ['$stateProvider', '$urlRouterProvider', '$httpProvider', '$locationProvider']
 
-  function routerConfig ($stateProvider, $urlRouterProvider, $httpProvider) {
+  function routerConfig ($stateProvider, $urlRouterProvider, $httpProvider, $locationProvider) {
     $httpProvider.interceptors.push('AuthInterceptor');
+
+    $locationProvider.html5Mode(true);
 
     $stateProvider
       .state('home', {

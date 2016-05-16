@@ -13,21 +13,33 @@
     loginCtrl.successMessage = false;
     loginCtrl.loginErrorMessage = false;
 
-    $rootScope.$on('$stateChangeSuccess', function () {
-
+    $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
       loginCtrl.loggedIn = Auth.isLoggedIn();
+    });
+
+    $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams) {
+
+      // console.log(toState);
+      // console.log(toParams);
+      // console.log(fromState);
+      // console.log(fromParams);
 
       Auth.getUser()
         .then(function (response) {
           loginCtrl.user = response.data;
+
+          // if (toState.name="home" || toState.name="browse") {
+          //   $location.path('/browse');
+          // }
+          $location.path('/browse');
         })
     });
 
-    Auth.getUser()
-      .then(function (response) {
-        loginCtrl.user = response.data;
-        $location.path('/browse');
-      })
+    // Auth.getUser()
+    //   .then(function (response) {
+    //     loginCtrl.user = response.data;
+    //     $location.path('/browse');
+    //   })
 
     // function to allow user to join tellynet
     loginCtrl.signUp = function () {
