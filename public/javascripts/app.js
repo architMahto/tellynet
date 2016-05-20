@@ -10,7 +10,7 @@
   function routerConfig ($stateProvider, $urlRouterProvider, $httpProvider, $locationProvider) {
     $httpProvider.interceptors.push('AuthInterceptor');
 
-    $locationProvider.html5Mode(true);
+    // $locationProvider.html5Mode(true);
 
     $stateProvider
       .state('home', {

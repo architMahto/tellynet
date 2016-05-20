@@ -17,6 +17,7 @@
     watchCtrl.timer = null;
     watchCtrl.isCompleted = false;
     watchCtrl.currentVideo = 0;
+    watchCtrl.watchMode = true;
 
     watchCtrl.onPlayerReady = function (API) {
       watchCtrl.API = API;
