@@ -4,16 +4,17 @@
   angular.module('loginControllers', [])
     .controller('loginController', loginController)
 
-  loginController.$inject = ['Auth', '$location', '$rootScope', 'AuthToken', 'usersFactory', '$state'];
+  loginController.$inject = ['Auth', '$location', '$rootScope', 'AuthToken', 'usersFactory', '$state', '$scope'];
 
-  function loginController(Auth, $location, $rootScope, AuthToken, usersFactory, $state) {
+  function loginController(Auth, $location, $rootScope, AuthToken, usersFactory, $state, $scope) {
     var loginCtrl = this;
     loginCtrl.error = "";
     loginCtrl.newUserData = {};
     loginCtrl.successMessage = false;
     loginCtrl.loginErrorMessage = false;
     loginCtrl.loggedIn = Auth.isLoggedIn();
-
+    console.log('LOGIN CTRL')
+    // go to browse state is user is logged in
     if (loginCtrl.loggedIn) {
       $state.go('browse')
     }
@@ -51,6 +52,18 @@
           if (response.data.success) {
             // $location.path('/browse');
             loginCtrl.loggedIn = Auth.isLoggedIn();
+
+            // grab info for logged in user
+            Auth.getUser()
+              .then(function (response) {
+                loginCtrl.user = response.data;
+                console.log(typeof loginCtrl.user);
+                console.log(loginCtrl.user.admin);
+                // $scope.$apply(function(){
+                //
+                // })
+              })
+
             $state.go('browse')
           }
           else {

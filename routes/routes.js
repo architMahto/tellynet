@@ -50,7 +50,7 @@ function authorize(req, res, next) {
         return res.status(403).send({success: false, message: "Can't authenticate token."})
       } else {
         // console.log("Decoding token", decoded);
-        req.decoded = JSON.stringify(decoded);
+        req.decoded = decoded;
         next();
       }
     })

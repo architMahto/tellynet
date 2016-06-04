@@ -41,8 +41,11 @@
             User <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
+
             <li><a href="#">Your Account</a></li>
             <li role="separator" class="divider"></li>
+            <li ng-if="loginCtrl.user.admin"><a href="#">Admin Page</a></li>
+            <li ng-if="loginCtrl.user.admin" role="separator" class="divider"></li>
             <li><a ng-click="loginCtrl.doLogout()">Log Out</a></li>
           </ul>
         </li>
