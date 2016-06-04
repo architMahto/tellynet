@@ -17,28 +17,7 @@ router.route('/users/:id')
   .put(usersCtrl.userController.update)
   .delete(usersCtrl.userController.destroy)
 
-router.use(function (req, res, next) {
-  var token = req.body.token || req.params.token || req.headers['x-access-token'];
-  // console.log("Token: ", token);
-
-  // console.log("Someone is visiting our API, we should check to see if they are logged in");
-
-  if (token) {
-    jwt.verify(token, secret, function (err, decoded) {
-      if (err) {
-        // console.log("Can't authenticate token");
-        return res.status(403).send({success: false, message: "Can't authenticate token."})
-      } else {
-        // console.log("Decoding token", decoded);
-        req.decoded = JSON.stringify(decoded);
-        next();
-      }
-    })
-  } else {
-    // console.log("No token provided");
-    return res.status(403).send({success: false, message: "No token provided."});
-  }
-})
+router.use(authorize)
 
 router.route('/networks')
   .get(networksCtrl.networkController.all)
@@ -57,5 +36,28 @@ router.route('/me')
     // console.log("Passed decoded info: ", req.decoded);
     res.json(req.decoded)
   })
+
+function authorize(req, res, next) {
+  var token = req.body.token || req.params.token || req.headers['x-access-token'];
+  // console.log("Token: ", token);
+
+  // console.log("Someone is visiting our API, we should check to see if they are logged in");
+
+  if (token) {
+    jwt.verify(token, secret, function (err, decoded) {
+      if (err) {
+        // console.log("Can't authenticate token");
+        return res.status(403).send({success: false, message: "Can't authenticate token."})
+      } else {
+        // console.log("Decoding token", decoded);
+        req.decoded = JSON.stringify(decoded);
+        next();
+      }
+    })
+  } else {
+    console.log("No token provided");
+    return res.status(403).send({success: false, message: "No token provided."});
+  }
+}
 
 module.exports = router;

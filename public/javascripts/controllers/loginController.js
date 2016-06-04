@@ -4,45 +4,38 @@
   angular.module('loginControllers', [])
     .controller('loginController', loginController)
 
-  loginController.$inject = ['Auth', '$location', '$rootScope', 'AuthToken', 'usersFactory'];
+  loginController.$inject = ['Auth', '$location', '$rootScope', 'AuthToken', 'usersFactory', '$state'];
 
-  function loginController(Auth, $location, $rootScope, AuthToken, usersFactory) {
+  function loginController(Auth, $location, $rootScope, AuthToken, usersFactory, $state) {
     var loginCtrl = this;
     loginCtrl.error = "";
     loginCtrl.newUserData = {};
     loginCtrl.successMessage = false;
     loginCtrl.loginErrorMessage = false;
+    loginCtrl.loggedIn = Auth.isLoggedIn();
 
-    $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
-      loginCtrl.loggedIn = Auth.isLoggedIn();
-    });
+    if (loginCtrl.loggedIn) {
+      $state.go('browse')
+    }
 
-    $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams) {
-
-      // console.log(toState);
-      // console.log(toParams);
-      // console.log(fromState);
-      // console.log(fromParams);
-
-      Auth.getUser()
-        .then(function (response) {
-          loginCtrl.user = response.data;
-
-          // if (toState.name="home" || toState.name="browse") {
-          //   $location.path('/browse');
-          // }
-          $location.path('/browse');
-        })
-    });
-
-    // Auth.getUser()
-    //   .then(function (response) {
-    //     loginCtrl.user = response.data;
-    //     $location.path('/browse');
-    //   })
+    // $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
+    //   loginCtrl.loggedIn = Auth.isLoggedIn();
+    // });
+    //
+    // $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams) {
+    //
+    //   Auth.getUser()
+    //     .then(function (response) {
+    //       loginCtrl.user = response.data;
+    //       console.log(loginCtrl.user);
+    //
+    //       $location.path('/browse');
+    //     })
+    // });
 
     // function to allow user to join tellynet
     loginCtrl.signUp = function () {
+      loginCtrl.newUserData.admin = false;
       usersFactory.create(loginCtrl.newUserData)
         .then(function(response) {
           loginCtrl.successMessage = !loginCtrl.successMessage;
@@ -56,7 +49,9 @@
         .then(function (response) {
           AuthToken.setToken(response.data.token);
           if (response.data.success) {
-            $location.path('/browse');
+            // $location.path('/browse');
+            loginCtrl.loggedIn = Auth.isLoggedIn();
+            $state.go('browse')
           }
           else {
             loginCtrl.error = response.data.message;
@@ -73,7 +68,9 @@
       loginCtrl.loginData = {};
       loginCtrl.loginErrorMessage = false;
       loginCtrl.successMessage = false;
-      $location.path('/')
+      loginCtrl.loggedIn = false;
+      // $location.path('/')
+      $state.go('home');
     }
   }
 })();

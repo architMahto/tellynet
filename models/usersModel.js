@@ -6,6 +6,7 @@ var mongoose                  = require('mongoose'),
       lastName                : String,
       email                   : {type: String, required: true, index: {unique: true}},
       password                : {type: String, select: true},
+      admin                   : Boolean,
       favoriteEpisodes        : [],
       favoriteSpecialFeatures : []
     });
