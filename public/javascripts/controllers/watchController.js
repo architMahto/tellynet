@@ -4,12 +4,13 @@
   angular.module('watchControllers', [])
     .controller('watchController', watchController);
 
-  watchController.$inject = ['networksAndShowsFactory', '$stateParams', '$sce', '$timeout'];
+  watchController.$inject = ['networksAndShowsFactory', '$stateParams', '$sce', '$timeout', '$state'];
 
-  function watchController(networksAndShowsFactory, $stateParams, $sce, $timeout) {
+  function watchController(networksAndShowsFactory, $stateParams, $sce, $timeout, $state) {
     var watchCtrl = this;
 
     watchCtrl.API = null;
+    watchCtrl.selectedShowID = $stateParams.id;
     watchCtrl.currentSeason  = $stateParams.s;
     watchCtrl.currentEpisode = $stateParams.e;
     watchCtrl.max = 5000;
@@ -56,13 +57,8 @@
     watchCtrl.setVideo = function(index) {
       watchCtrl.currentEpisode = index;
       watchCtrl.API.stop();
-      watchCtrl.config.sources = [
-        {
-          src: $sce.trustAsResourceUrl(watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes[watchCtrl.currentEpisode].videoURL),
-          type: "video/webm"
-        }
-      ]
-      watchCtrl.config.plugins.poster = watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes[watchCtrl.currentEpisode].imageURL;
+
+      $state.go('watch', {id: watchCtrl.selectedShowID, s: watchCtrl.currentSeason, e: watchCtrl.currentEpisode})
     }
 
     watchCtrl.onComplete = function () {
@@ -80,13 +76,7 @@
         }
       }
 
-      watchCtrl.config.sources = [
-        {
-          src: $sce.trustAsResourceUrl(watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes[watchCtrl.currentEpisode].videoURL),
-          type: "video/webm"
-        }
-      ]
-      watchCtrl.config.plugins.poster = watchCtrl.videos.seasons[watchCtrl.currentSeason].episodes[watchCtrl.currentEpisode].imageURL;
+      $state.go('watch', {id: watchCtrl.selectedShowID, s: watchCtrl.currentSeason, e: watchCtrl.currentEpisode})
     }
 
   }

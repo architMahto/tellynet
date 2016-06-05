@@ -13,7 +13,7 @@
     loginCtrl.successMessage = false;
     loginCtrl.loginErrorMessage = false;
     loginCtrl.loggedIn = Auth.isLoggedIn();
-    console.log('LOGIN CTRL')
+
     // go to browse state is user is logged in
     if (loginCtrl.loggedIn) {
       $state.go('browse')
@@ -57,11 +57,8 @@
             Auth.getUser()
               .then(function (response) {
                 loginCtrl.user = response.data;
-                console.log(typeof loginCtrl.user);
-                console.log(loginCtrl.user.admin);
-                // $scope.$apply(function(){
-                //
-                // })
+                // console.log(typeof loginCtrl.user);
+                // console.log(loginCtrl.user.admin);
               })
 
             $state.go('browse')

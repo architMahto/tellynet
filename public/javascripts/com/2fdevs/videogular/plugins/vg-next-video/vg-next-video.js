@@ -45,12 +45,12 @@
     ctrl.timer = null;
     ctrl.isCompleted = false;
 
-    console.log("max:", ctrl.max);
-    console.log("timer:", ctrl.timer);
-    console.log("isCompleted:", ctrl.isCompleted);
-    console.log("vgVideos:", ctrl.vgVideos);
-    console.log("vgTime:", ctrl.vgTime);
-    console.log("vgCurrentSeason:", ctrl.vgCurrentSeason);
-    console.log("vgCurrentEpisode:", ctrl.vgCurrentEpisode);
+    // console.log("max:", ctrl.max);
+    // console.log("timer:", ctrl.timer);
+    // console.log("isCompleted:", ctrl.isCompleted);
+    // console.log("vgVideos:", ctrl.vgVideos);
+    // console.log("vgTime:", ctrl.vgTime);
+    // console.log("vgCurrentSeason:", ctrl.vgCurrentSeason);
+    // console.log("vgCurrentEpisode:", ctrl.vgCurrentEpisode);
   }
 })();
