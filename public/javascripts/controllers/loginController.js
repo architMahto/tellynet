@@ -19,20 +19,11 @@
       $state.go('browse')
     }
 
-    // $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
-    //   loginCtrl.loggedIn = Auth.isLoggedIn();
-    // });
-    //
-    // $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams) {
-    //
-    //   Auth.getUser()
-    //     .then(function (response) {
-    //       loginCtrl.user = response.data;
-    //       console.log(loginCtrl.user);
-    //
-    //       $location.path('/browse');
-    //     })
-    // });
+    // check if user is admin
+    Auth.getUser()
+      .then(function (response) {
+        loginCtrl.user = response.data;
+      })
 
     // function to allow user to join tellynet
     loginCtrl.signUp = function () {
@@ -50,15 +41,12 @@
         .then(function (response) {
           AuthToken.setToken(response.data.token);
           if (response.data.success) {
-            // $location.path('/browse');
             loginCtrl.loggedIn = Auth.isLoggedIn();
 
             // grab info for logged in user
             Auth.getUser()
               .then(function (response) {
                 loginCtrl.user = response.data;
-                // console.log(typeof loginCtrl.user);
-                // console.log(loginCtrl.user.admin);
               })
 
             $state.go('browse')
@@ -79,7 +67,6 @@
       loginCtrl.loginErrorMessage = false;
       loginCtrl.successMessage = false;
       loginCtrl.loggedIn = false;
-      // $location.path('/')
       $state.go('home');
     }
   }
