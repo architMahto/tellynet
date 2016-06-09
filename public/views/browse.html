@@ -25,13 +25,15 @@
     <br>
   </div>
 
-  <div class="row">
+  <div class="row networks">
     <ul class="networks" ng-show="networkAndShowCtrl.networksList">
-      <li ng-repeat="network in networkAndShowCtrl.networks">
-        <div class=".col-md-3 image-holder hvr-grow" ng-click="networkAndShowCtrl.getShows(network._id)">
-          <img ng-src="{{network.logo}}" style="width: 100px;"/>
-        </a>
-      </li>
+      <!-- <li ng-repeat="network in networkAndShowCtrl.networks"> -->
+        <div ng-repeat="network in networkAndShowCtrl.networks" class="col-lg-2 col-md-2 col-sm-2 col-xs-3 text-center">
+          <div class="image-holder hvr-grow" ng-click="networkAndShowCtrl.getShows(network._id)">
+            <img ng-src="{{network.logo}}" class="img-responsive"/>
+          </div>
+        </div>
+      <!-- </li> -->
     </ul>
   </div>
 
