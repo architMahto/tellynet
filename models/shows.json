@@ -158,7 +158,168 @@
     ],
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/FX/Fargo/fargo.jpg",
-    "network": "57280af0dc9ecbf31013c238"
+    "network": "575b35b132b8073e131ed6d6"
+  },
+  {
+    "name": "Halt and Catch Fire",
+    "details": {
+      "synopsis": "Set in the early 1980s, this series dramatizes the personal computing boom through the eyes of a visionary, an engineer and a prodigy whose innovations directly confront the corporate behemoths of the time. Their personal and professional partnership will be challenged by greed and ego while charting the changing culture in Texas' Silicon Prairie."
+    },
+    "seasons": [
+      {
+        "title": "Season 1",
+        "episodes": [
+          {
+            "title": "I/O",
+            "number": 1,
+            "synopsis": "In 1983 Dallas, a enigmatic visionary, an engineer and a computer prodigy join forces to create a faster, cheaper PC that will challenge IBM.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/Halt+and+Catch+Fire+101+-+I-O.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/haltAndCatchFire11.png"
+          },
+          {
+            "title": "FUD",
+            "number": 2,
+            "synopsis": "After a meeting with IBM's lawyers, Joe comes up with a plan to move forward, but Cameron has doubts about his objectives.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/Halt+and+Catch+Fire+102+-+FUD.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/haltAndCatchFire12.png"
+          },
+          {
+            "title": "High Plains Hardware",
+            "number": 3,
+            "synopsis": "Gordon and Cameron struggle to make Joe's vision a reality, while Joe and Bosworth attempt to procure capital to fund the making of the new machine.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/Halt+and+Catch+Fire+103+-+High+Plains+Hardware.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/haltAndCatchFire13.png"
+          },
+          {
+            "title": "Close to the Metal",
+            "number": 4,
+            "synopsis": "As Cameron nears completion of the BIOS, a crisis threatens the project's future and requires all hands on deck to save the machine.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/Halt+and+Catch+Fire+104+-+Close+to+the+Metal.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/haltAndCatchFire14.png"
+          },
+          {
+            "title": "Adventure",
+            "number": 5,
+            "synopsis": "Cameron battles with her new manager, while Joe and Gordon attempt to acquire a key piece of new technology for the computer.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/Halt+and+Catch+Fire+105+-+Adventure.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/haltAndCatchFire15.png"
+          },
+          {
+            "title": "Landfall",
+            "number": 6,
+            "synopsis": "Cameron's new idea puts her at odds with Gordon, leaving Joe with a difficult decision. Later, personal barriers collapse during Hurricane Alicia.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/Halt+and+Catch+Fire+106+-+Landfall.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/haltAndCatchFire16.png"
+          },
+          {
+            "title": "Giant",
+            "number": 7,
+            "synopsis": "A visitor from Joe's past threatens his newfound connection with Cameron. With Donna out of town, the toll of Gordon's work catches up with him.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/Halt+and+Catch+Fire+107+-+Giant.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/haltAndCatchFire17.png"
+          },
+          {
+            "title": "The 214s",
+            "number": 8,
+            "synopsis": "As the team prepares for COMDEX, scandal rocks Cardiff Electric, Gordon pulls the presentation together, and Bosworth makes a personal sacrifice.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/Halt+and+Catch+Fire+108+-+The+214s.webm ",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/haltAndCatchFire18.png"
+          },
+          {
+            "title": "Up Helly Aa",
+            "number": 9,
+            "synopsis": "Joe, Cameron, Gordon and Donna head to COMDEX, where they're forced to think outside of the box when they run into problems.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/Halt+and+Catch+Fire+109+-+Up+Helly+Aa.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/haltAndCatchFire19.png"
+          },
+          {
+            "title": "1984",
+            "number": 10,
+            "synopsis": "Joe and Gordon try to smooth things over with Nathan Cardiff. Cameron takes her future into her own hands, and Donna gets an intriguing offer.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/Halt+and+Catch+Fire+110+-+1984.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+1/haltAndCatchFire110.png"
+          }
+        ]
+      },
+      {
+        "title": "Season 2",
+        "episodes": [
+          {
+            "title": "SETI",
+            "number": 1,
+            "synopsis": "Donna struggles to get Cameron to pull her weight at Mutiny. Joe settles down in Austin with his new girlfriend, a journalist named Sara.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/Halt+and+Catch+Fire+201+-+SETI.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/haltAndCatchFire21.png"
+          },
+          {
+            "title": "New Coke",
+            "number": 2,
+            "synopsis": "Sara's father, an oil executive, offers Joe a job. Donna and Cameron butt heads over a hiring decision. Gordon searches for inspiration.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/Halt+and+Catch+Fire+202+-+New+Coke.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/haltAndCatchFire22.png"
+          },
+          {
+            "title": "The Way In",
+            "number": 3,
+            "synopsis": "Joe surprises Donna and Gordon with an invitation to dinner. Bosworth tries to rebuild his life, and Tom stands up to Cameron.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/Halt+and+Catch+Fire+203+-+The+Way+In.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/haltAndCatchFire23.png"
+          },
+          {
+            "title": "Play with Friends",
+            "number": 4,
+            "synopsis": "While Bosworth pitches a plan to win back subscribers, Donna tries to convince Cameron that Community is worth saving. Joe and Gordon team up.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/Halt+and+Catch+Fire+204+-+Play+with+Friends.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/haltAndCatchFire24.png"
+          },
+          {
+            "title": "Extract and Defend",
+            "number": 5,
+            "synopsis": "Donna and Cameron learn that Joe is supplying Mutiny's network, and Joe realizes it's time to come clean to Jacob. Gordon receives surprising news.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/Halt+and+Catch+Fire+205+-+Extract+and+Defend.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/haltAndCatchFire25.png"
+          },
+          {
+            "title": "10Broad36",
+            "number": 6,
+            "synopsis": "Joe negotiates with Cameron and Donna after Jacob makes changes to Mutiny's contract. Gordon takes the girls to visit his brother in California.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/Halt+and+Catch+Fire+206+-+10Broad36.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/haltAndCatchFire26.png"
+          },
+          {
+            "title": "Working for the Clampdown",
+            "number": 7,
+            "synopsis": "Cameron weighs conflicting advice as she faces a critical decision. Gordon confides in Donna, and Joe considers his next steps.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/Halt+and+Catch+Fire+207+-+Working+for+the+Clampdown.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/haltAndCatchFire27.png"
+          },
+          {
+            "title": "Limbo",
+            "number": 8,
+            "synopsis": "Joe delivers news to Jacob. While Mutiny plans a party for its users, Tom and Cameron clash over the game. Gordon's company experiences growing pains.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/Halt+and+Catch+Fire+208+-+Limbo.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/haltAndCatchFire28.png"
+          },
+          {
+            "title": "Kali",
+            "number": 9,
+            "synopsis": "Cameron and Donna go shooting to blow off steam and ponder their options. Joe threatens Jacob, who tries to make amends. Gordon struggles.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/Halt+and+Catch+Fire+209+-+Kali.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/haltAndCatchFire29.png"
+          },
+          {
+            "title": "Heaven Is a Place",
+            "number": 10,
+            "synopsis": "Jacob and Joe both face blowback. When Cameron presents Donna with an idea for Mutiny's next step, Donna gives Gordon an ultimatum.",
+            "videoURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/Halt+and+Catch+Fire+210+-+Heaven+Is+a+Place.webm",
+            "imageURL": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/Season+2/haltAndCatchFire210.png"
+          }
+        ]
+      }
+    ],
+    "specialFeatures": [],
+    "poster": "https://s3-us-west-2.amazonaws.com/tellynet/AMC/Halt+and+Catch+Fire/haltAndCatchFirePoster.jpg",
+    "network": "575b35b132b8073e131ed6c9"
   },
   {
     "name": "Marvel's Agent Carter",
@@ -305,7 +466,7 @@
     ],
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/ABC/Marvel%27s+Agent+Carter/agentCarterPoster.jpg",
-    "network": "57280af0dc9ecbf31013c22a"
+    "network": "575b35b132b8073e131ed6c8"
   },
   {
     "name": "Mr. Bean",
@@ -433,7 +594,7 @@
       }
     ],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/ITV/Mr.+Bean/mrBeanPoster.jpg",
-    "network": "57280af0dc9ecbf31013c23d"
+    "network": "575b35b132b8073e131ed6db"
   },
   {
     "name": "Mr. Robot",
@@ -519,7 +680,7 @@
     ],
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/USA/Mr.+Robot/mrRobotPoster.jpg",
-    "network": "57280af0dc9ecbf31013c24b"
+    "network": "575b35b132b8073e131ed6e9"
   },
   {
     "name": "Sherlock",
@@ -615,7 +776,7 @@
     ],
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+One/Sherlock/sherlock.jpg",
-    "network": "57280af0dc9ecbf31013c22c"
+    "network": "575b35b132b8073e131ed6ca"
   },
   {
     "name": "Silicon Valley",
@@ -762,7 +923,7 @@
     ],
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/HBO/Silicon+Valley/siliconValleyPoster.jpg",
-    "network": "57280af0dc9ecbf31013c23b"
+    "network": "575b35b132b8073e131ed6d9"
   },
   {
     "name": "The Office",
@@ -886,7 +1047,7 @@
     ],
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/BBC+Two/The+Office/theofficeUK.jpg",
-    "network": "57280af0dc9ecbf31013c22d"
+    "network": "575b35b132b8073e131ed6cb"
   },
   {
     "name": "You're The Worst",
@@ -1068,6 +1229,6 @@
     ],
     "specialFeatures": [],
     "poster": "https://s3-us-west-2.amazonaws.com/tellynet/FXX/You%27re+The+Worst/youreTheWorst.jpg",
-    "network": "57280af0dc9ecbf31013c239"
+    "network": "575b35b132b8073e131ed6d7"
   }
 ]
